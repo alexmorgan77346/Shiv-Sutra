@@ -6,595 +6,283 @@
 <meta name="theme-color" content="#0a0a0a" id="themeColorMeta">
 <meta name="description" content="Shiv Sutra - Know Yourself as Consciousness">
 <meta name="apple-mobile-web-app-capable" content="yes">
+ <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Shiv Sutra">
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <title>Shiv Sutra · शिव सूत्र</title>
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Marcellus&display=swap" rel="stylesheet">
-
 <style>
-/* ════════════════════════════════════════
-   DESIGN TOKENS — DARK (default)
-   ════════════════════════════════════════ */
+/* ════════ TOKENS — DARK ════════ */
 :root {
-  --bg:            #080808;
-  --surface:       #111111;
-  --card:          #161616;
-  --card-hover:    #1e1e1e;
-  --border:        rgba(212,175,55,0.15);
-  --border-hover:  rgba(212,175,55,0.32);
-  --gold:          #d4af37;
-  --gold-light:    #f0d060;
-  --gold-dim:      rgba(212,175,55,0.6);
-  --text-primary:  #f0ead8;
-  --text-secondary:rgba(240,234,216,0.58);
-  --text-muted:    rgba(240,234,216,0.32);
-  --header-bg:     rgba(8,8,8,0.92);
-  --shadow:        0 4px 32px rgba(0,0,0,0.6), 0 1px 0 rgba(212,175,55,0.07) inset;
-  --shadow-hover:  0 8px 48px rgba(0,0,0,0.8), 0 0 0 1px rgba(212,175,55,0.22);
-  --serif-dev:     'Noto Serif Devanagari', serif;
-  --serif-en:      'Cormorant Garamond', Georgia, serif;
-  --display:       'Marcellus', serif;
-  --radius:        18px;
-  --t:             all 0.32s cubic-bezier(0.4,0,0.2,1);
+  --bg:           #080808;
+  --card:         #141414;
+  --card-hover:   #1c1c1c;
+  --border:       rgba(212,175,55,0.14);
+  --border-hover: rgba(212,175,55,0.32);
+  --gold:         #d4af37;
+  --gold-light:   #f0d060;
+  --gold-dim:     rgba(212,175,55,0.58);
+  --text:         #f0ead8;
+  --text-2:       rgba(240,234,216,0.58);
+  --text-3:       rgba(240,234,216,0.3);
+  --header-bg:    rgba(8,8,8,0.92);
+  --shadow:       0 4px 28px rgba(0,0,0,0.55);
+  --shadow-h:     0 8px 44px rgba(0,0,0,0.75), 0 0 0 1px rgba(212,175,55,0.2);
+  --dev:          'Noto Serif Devanagari', serif;
+  --en:           'Cormorant Garamond', Georgia, serif;
+  --dis:          'Marcellus', serif;
+  --r:            18px;
+  --t:            all 0.3s cubic-bezier(0.4,0,0.2,1);
+  --osho-border:  rgba(212,175,55,0.12);
+  --osho-bg:      rgba(212,175,55,0.04);
 }
-
-/* ════════════════════════════════════════
-   LIGHT MODE TOKENS
-   ════════════════════════════════════════ */
+/* ════════ TOKENS — LIGHT ════════ */
 [data-theme="light"] {
-  --bg:            #fdf8ee;
-  --surface:       #f5edd8;
-  --card:          #fffdf7;
-  --card-hover:    #fff8e8;
-  --border:        rgba(180,140,20,0.18);
-  --border-hover:  rgba(180,140,20,0.38);
-  --gold:          #a07010;
-  --gold-light:    #c08820;
-  --gold-dim:      rgba(160,112,16,0.65);
-  --text-primary:  #1a1408;
-  --text-secondary:rgba(26,20,8,0.62);
-  --text-muted:    rgba(26,20,8,0.38);
-  --header-bg:     rgba(253,248,238,0.94);
-  --shadow:        0 2px 20px rgba(160,112,16,0.10), 0 1px 0 rgba(160,112,16,0.07) inset;
-  --shadow-hover:  0 6px 32px rgba(160,112,16,0.18), 0 0 0 1px rgba(160,112,16,0.2);
+  --bg:           #fdf8ee;
+  --card:         #fffdf7;
+  --card-hover:   #fff8e8;
+  --border:       rgba(160,112,16,0.16);
+  --border-hover: rgba(160,112,16,0.36);
+  --gold:         #a07010;
+  --gold-light:   #b88820;
+  --gold-dim:     rgba(160,112,16,0.62);
+  --text:         #1a1408;
+  --text-2:       rgba(26,20,8,0.62);
+  --text-3:       rgba(26,20,8,0.36);
+  --header-bg:    rgba(253,248,238,0.94);
+  --shadow:       0 2px 18px rgba(160,112,16,0.10);
+  --shadow-h:     0 6px 30px rgba(160,112,16,0.18), 0 0 0 1px rgba(160,112,16,0.18);
+  --osho-border:  rgba(160,112,16,0.14);
+  --osho-bg:      rgba(160,112,16,0.04);
 }
+/* ════════ RESET ════════ */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-tap-highlight-color:transparent}
+body{background:var(--bg);color:var(--text);font-family:var(--dev);min-height:100vh;overflow-x:hidden;-webkit-font-smoothing:antialiased;transition:background .4s,color .4s}
+[data-theme="dark"] body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");pointer-events:none;z-index:9999;opacity:.35}
+::selection{background:rgba(212,175,55,0.2);color:var(--gold-light)}
+::-webkit-scrollbar{width:4px}
+::-webkit-scrollbar-track{background:var(--bg)}
+::-webkit-scrollbar-thumb{background:rgba(212,175,55,0.22);border-radius:4px}
 
-/* ════════════════════════════════════════
-   RESET
-   ════════════════════════════════════════ */
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; -webkit-tap-highlight-color: transparent; }
-body {
-  background: var(--bg);
-  color: var(--text-primary);
-  font-family: var(--serif-dev);
-  min-height: 100vh;
-  overflow-x: hidden;
-  -webkit-font-smoothing: antialiased;
-  transition: background 0.4s ease, color 0.4s ease;
-}
+/* ════════ SPLASH ════════ */
+#splash{position:fixed;inset:0;background:#080808;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:2000;transition:opacity .8s,visibility .8s}
+#splash.hidden{opacity:0;visibility:hidden;pointer-events:none}
+.s-om{font-size:76px;line-height:1;margin-bottom:16px;color:#d4af37;filter:drop-shadow(0 0 28px rgba(212,175,55,.45));animation:omP 2s ease-in-out infinite}
+.s-title{font-family:var(--dis);font-size:clamp(26px,6vw,40px);color:#d4af37;letter-spacing:.14em;margin-bottom:5px}
+.s-sub{font-family:var(--dev);font-size:13px;color:rgba(240,234,216,.45);letter-spacing:.06em}
+.s-bar{width:110px;height:2px;background:rgba(212,175,55,.18);border-radius:2px;margin-top:28px;overflow:hidden}
+.s-bar::after{content:'';display:block;height:100%;background:#d4af37;border-radius:2px;animation:ld 2s ease forwards}
+.s-status{font-family:var(--en);font-style:italic;font-size:11px;color:rgba(212,175,55,.4);margin-top:10px;letter-spacing:.06em;min-height:16px}
+@keyframes ld{from{width:0}to{width:100%}}
+@keyframes omP{0%,100%{transform:scale(1);filter:drop-shadow(0 0 24px rgba(212,175,55,.4))}50%{transform:scale(1.07);filter:drop-shadow(0 0 44px rgba(212,175,55,.75))}}
 
-/* grain overlay (dark only) */
-[data-theme="dark"] body::before {
-  content: '';
-  position: fixed;
-  inset: 0;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
-  pointer-events: none;
-  z-index: 9999;
-  opacity: 0.35;
-}
+/* ════════ HEADER ════════ */
+header{position:sticky;top:0;z-index:100;background:var(--header-bg);backdrop-filter:blur(22px);-webkit-backdrop-filter:blur(22px);border-bottom:1px solid var(--border);padding:0 20px;transition:background .4s,border-color .4s}
+.h-inner{max-width:740px;margin:0 auto;padding:13px 0;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.brand{display:flex;align-items:center;gap:9px;text-decoration:none}
+.b-om{font-size:24px;line-height:1;color:var(--gold);filter:drop-shadow(0 0 7px rgba(212,175,55,.45))}
+.b-text{display:flex;flex-direction:column;line-height:1.15}
+.b-name{font-family:var(--dis);font-size:19px;color:var(--gold-light);letter-spacing:.09em}
+.b-tag{font-family:var(--en);font-style:italic;font-size:10.5px;color:var(--text-3);letter-spacing:.05em}
+.h-controls{display:flex;align-items:center;gap:8px;flex-shrink:0}
+.lang-tog{display:flex;background:rgba(128,128,128,.07);border:1px solid var(--border);border-radius:100px;padding:3px;gap:2px}
+.lang-btn{background:transparent;border:none;padding:5px 12px;border-radius:100px;font-family:var(--dev);font-size:12px;color:var(--text-2);cursor:pointer;transition:var(--t);white-space:nowrap;outline:none}
+.lang-btn.active{background:var(--gold);color:#0a0a0a;font-weight:600;box-shadow:0 2px 10px rgba(212,175,55,.28)}
+.theme-btn{width:36px;height:36px;background:rgba(128,128,128,.07);border:1px solid var(--border);border-radius:50%;cursor:pointer;outline:none;display:flex;align-items:center;justify-content:center;font-size:16px;transition:var(--t);flex-shrink:0}
+.theme-btn:hover{border-color:var(--border-hover);background:rgba(212,175,55,.08);transform:rotate(18deg) scale(1.08)}
 
-/* ════════════════════════════════════════
-   SPLASH
-   ════════════════════════════════════════ */
-#splash {
-  position: fixed; inset: 0;
-  background: #080808;
-  display: flex; flex-direction: column;
-  align-items: center; justify-content: center;
-  z-index: 2000;
-  transition: opacity 0.8s ease, visibility 0.8s ease;
-}
-#splash.hidden { opacity: 0; visibility: hidden; pointer-events: none; }
-.splash-om {
-  font-size: 76px; line-height: 1; margin-bottom: 18px;
-  color: #d4af37;
-  filter: drop-shadow(0 0 28px rgba(212,175,55,0.45));
-  animation: omPulse 2s ease-in-out infinite;
-}
-.splash-title {
-  font-family: var(--display);
-  font-size: clamp(26px,6vw,40px);
-  color: #d4af37; letter-spacing: 0.14em; margin-bottom: 6px;
-}
-.splash-sub {
-  font-family: var(--serif-dev);
-  font-size: 13px; color: rgba(240,234,216,0.5); letter-spacing: 0.06em;
-}
-.splash-loader {
-  width: 110px; height: 2px;
-  background: rgba(212,175,55,0.18);
-  border-radius: 2px; margin-top: 28px; overflow: hidden;
-}
-.splash-loader::after {
-  content: ''; display: block; height: 100%;
-  background: #d4af37; border-radius: 2px;
-  animation: load 1.9s ease forwards;
-}
-@keyframes load { from{width:0} to{width:100%} }
-@keyframes omPulse {
-  0%,100%{ transform:scale(1);   filter:drop-shadow(0 0 24px rgba(212,175,55,0.4)); }
-  50%    { transform:scale(1.07);filter:drop-shadow(0 0 44px rgba(212,175,55,0.75)); }
-}
+/* ════════ STATS ════════ */
+.stats{max-width:740px;margin:0 auto;padding:10px 20px}
+.stats span{font-family:var(--en);font-size:12px;color:var(--text-3);letter-spacing:.04em}
+.stats b{color:var(--gold-dim)}
 
-/* ════════════════════════════════════════
-   HEADER
-   ════════════════════════════════════════ */
-header {
-  position: sticky; top: 0; z-index: 100;
-  background: var(--header-bg);
-  backdrop-filter: blur(22px);
-  -webkit-backdrop-filter: blur(22px);
-  border-bottom: 1px solid var(--border);
-  padding: 0 20px;
-  transition: background 0.4s ease, border-color 0.4s ease;
-}
-.header-inner {
-  max-width: 720px; margin: 0 auto;
-  padding: 14px 0;
-  display: flex; align-items: center; justify-content: space-between;
-  gap: 10px;
-}
+/* ════════ MAIN ════════ */
+main{max-width:740px;margin:0 auto;padding:4px 16px 80px}
 
-/* Brand */
-.brand { display:flex; align-items:center; gap:9px; text-decoration:none; }
-.brand-om {
-  font-size: 24px; line-height:1; color: var(--gold);
-  filter: drop-shadow(0 0 7px rgba(212,175,55,0.45));
-}
-.brand-text { display:flex; flex-direction:column; line-height:1.15; }
-.brand-name {
-  font-family: var(--display); font-size: 19px;
-  color: var(--gold-light); letter-spacing: 0.09em;
-}
-.brand-tagline {
-  font-family: var(--serif-en); font-style:italic;
-  font-size: 10.5px; color: var(--text-muted); letter-spacing:0.05em;
-}
+/* chapter divider */
+.ch-div{text-align:center;padding:22px 0 10px}
+.ch-label{font-family:var(--dis);font-size:12px;color:var(--gold-dim);letter-spacing:.2em;text-transform:uppercase;display:inline-flex;align-items:center;gap:12px}
+.ch-label::before,.ch-label::after{content:'';display:block;width:36px;height:1px;background:linear-gradient(90deg,transparent,var(--gold-dim))}
+.ch-label::after{background:linear-gradient(90deg,var(--gold-dim),transparent)}
+.ch-sub{font-family:var(--en);font-style:italic;font-size:11px;color:var(--text-3);margin-top:4px;text-align:center}
 
-/* Controls row (lang toggle + theme btn) */
-.header-controls { display:flex; align-items:center; gap:8px; flex-shrink:0; }
+/* card */
+.card{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:22px 22px 18px;margin-bottom:11px;box-shadow:var(--shadow);transition:var(--t);position:relative;overflow:hidden;opacity:0;transform:translateY(18px)}
+.card.vis{opacity:1;transform:translateY(0)}
+.card::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--gold-dim),transparent);opacity:0;transition:opacity .3s}
+.card:hover{background:var(--card-hover);border-color:var(--border-hover);box-shadow:var(--shadow-h);transform:translateY(-2px)}
+.card:hover::before{opacity:1}
+.card.faved{border-color:rgba(212,175,55,.38)}
+[data-theme="light"] .card.faved{border-color:rgba(160,112,16,.34)}
 
-/* Language pill toggle */
-.lang-toggle {
-  display:flex; background:rgba(128,128,128,0.07);
-  border:1px solid var(--border); border-radius:100px;
-  padding:3px; gap:2px;
-}
-.lang-btn {
-  background:transparent; border:none;
-  padding:5px 12px; border-radius:100px;
-  font-family: var(--serif-dev); font-size:12px;
-  color: var(--text-secondary); cursor:pointer;
-  transition: var(--t); white-space:nowrap; outline:none;
-}
-.lang-btn.active {
-  background: var(--gold); color:#0a0a0a;
-  font-weight:600; box-shadow:0 2px 10px rgba(212,175,55,0.28);
-}
+/* card header */
+.c-head{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;margin-bottom:12px}
+.s-num{font-family:var(--en);font-size:11px;color:var(--gold-dim);letter-spacing:.12em;text-transform:uppercase;font-weight:500;padding:3px 10px;border:1px solid var(--border);border-radius:100px;flex-shrink:0;margin-top:2px}
+.fav-btn{background:none;border:none;cursor:pointer;font-size:15px;color:var(--text-3);transition:var(--t);padding:3px;line-height:1;flex-shrink:0;outline:none}
+.fav-btn:hover{color:var(--gold);transform:scale(1.25)}
+.fav-btn.on{color:var(--gold);filter:drop-shadow(0 0 5px rgba(212,175,55,.5))}
 
-/* Theme toggle button */
-.theme-btn {
-  width: 36px; height: 36px;
-  background: rgba(128,128,128,0.07);
-  border: 1px solid var(--border);
-  border-radius: 50%;
-  cursor: pointer; outline: none;
-  display: flex; align-items:center; justify-content:center;
-  font-size: 16px;
-  transition: var(--t);
-  color: var(--text-secondary);
-  flex-shrink: 0;
-}
-.theme-btn:hover {
-  border-color: var(--border-hover);
-  background: rgba(212,175,55,0.08);
-  transform: rotate(18deg) scale(1.08);
-}
+/* sanskrit */
+.skt{font-family:var(--dev);font-size:clamp(17px,4.2vw,21px);font-weight:500;line-height:1.65;color:var(--text);margin-bottom:12px;letter-spacing:.01em}
 
-/* ════════════════════════════════════════
-   STATS
-   ════════════════════════════════════════ */
-.stats-bar {
-  max-width:720px; margin:0 auto;
-  padding:10px 20px;
-}
-.stats-count { font-family:var(--serif-en); font-size:12px; color:var(--text-muted); letter-spacing:0.04em; }
-.stats-gold  { color:var(--gold-dim); }
+/* translation */
+.trans{font-size:clamp(13px,3vw,15px);line-height:1.75;color:var(--text-2);padding-top:11px;border-top:1px solid var(--border);transition:opacity .28s}
+.trans.hi{font-family:var(--dev);font-weight:300}
+.trans.en{font-family:var(--en);font-style:italic;font-size:clamp(14px,3.3vw,16px);letter-spacing:.01em}
+.trans.fade{opacity:0}
 
-/* ════════════════════════════════════════
-   MAIN / CARDS
-   ════════════════════════════════════════ */
-main { max-width:720px; margin:0 auto; padding:4px 16px 80px; }
+/* osho block */
+.osho-block{margin-top:12px;padding:12px 14px;background:var(--osho-bg);border:1px solid var(--osho-border);border-left:2px solid var(--gold-dim);border-radius:10px;opacity:0;max-height:0;overflow:hidden;transition:opacity .35s,max-height .4s ease,padding .3s}
+.osho-block.open{opacity:1;max-height:400px}
+.osho-label{font-family:var(--en);font-size:10px;color:var(--gold-dim);letter-spacing:.15em;text-transform:uppercase;margin-bottom:7px}
+.osho-text{font-size:clamp(12px,2.8vw,14px);line-height:1.8;color:var(--text-2)}
+.osho-text.hi{font-family:var(--dev);font-weight:300}
+.osho-text.en{font-family:var(--en);font-style:italic}
+.osho-btn{background:none;border:none;cursor:pointer;display:inline-flex;align-items:center;gap:5px;margin-top:10px;padding:4px 10px;border-radius:100px;font-family:var(--en);font-size:11px;color:var(--gold-dim);letter-spacing:.08em;border:1px solid var(--osho-border);transition:var(--t);outline:none}
+.osho-btn:hover{background:var(--osho-bg);border-color:var(--gold-dim);color:var(--gold)}
+.osho-btn .arr{transition:transform .3s}
+.osho-btn.open .arr{transform:rotate(180deg)}
 
-/* Chapter divider */
-.chapter-divider { text-align:center; padding:22px 0 10px; }
-.chapter-label {
-  font-family:var(--display); font-size:12.5px;
-  color:var(--gold-dim); letter-spacing:0.2em; text-transform:uppercase;
-  display:inline-flex; align-items:center; gap:12px;
-}
-.chapter-label::before,
-.chapter-label::after {
-  content:''; display:block; width:36px; height:1px;
-  background:linear-gradient(90deg,transparent,var(--gold-dim));
-}
-.chapter-label::after { background:linear-gradient(90deg,var(--gold-dim),transparent); }
+/* install banner */
+#instBanner{position:fixed;bottom:20px;left:50%;transform:translateX(-50%) translateY(120px);z-index:500;background:var(--card);border:1px solid var(--border-hover);border-radius:16px;padding:14px 18px;display:flex;align-items:center;gap:14px;box-shadow:0 8px 40px rgba(0,0,0,.5);max-width:calc(100vw - 32px);width:360px;transition:transform .45s cubic-bezier(.34,1.56,.64,1),opacity .4s;opacity:0}
+#instBanner.show{transform:translateX(-50%) translateY(0);opacity:1}
+#instBanner.hide{transform:translateX(-50%) translateY(120px);opacity:0}
+.ib-icon{font-size:26px;flex-shrink:0}
+.ib-text{flex:1;min-width:0}
+.ib-title{font-family:var(--dis);font-size:14px;color:var(--gold-light);letter-spacing:.06em;margin-bottom:2px}
+.ib-sub{font-family:var(--en);font-style:italic;font-size:11.5px;color:var(--text-3)}
+.ib-acts{display:flex;gap:6px;flex-shrink:0}
+.ib-btn{padding:7px 14px;border-radius:100px;border:none;font-family:var(--dev);font-size:12px;cursor:pointer;outline:none;transition:var(--t);font-weight:600}
+.ib-btn.p{background:var(--gold);color:#0a0a0a;box-shadow:0 2px 12px rgba(212,175,55,.3)}
+.ib-btn.p:hover{background:var(--gold-light);transform:scale(1.05)}
+.ib-btn.d{background:rgba(255,255,255,.05);border:1px solid var(--border);color:var(--text-3)}
 
-/* Card */
-.sutra-card {
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 22px 22px 18px;
-  margin-bottom: 11px;
-  box-shadow: var(--shadow);
-  transition: var(--t);
-  position: relative; overflow: hidden;
-  opacity: 0; transform: translateY(18px);
-}
-.sutra-card.visible { opacity:1; transform:translateY(0); }
+/* toast */
+#toast{position:fixed;top:70px;left:50%;transform:translateX(-50%) translateY(-20px);z-index:400;padding:9px 18px;border-radius:100px;font-family:var(--dev);font-size:12.5px;font-weight:500;display:flex;align-items:center;gap:7px;opacity:0;pointer-events:none;transition:opacity .3s,transform .3s;white-space:nowrap}
+#toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+#toast.off{background:#2a1a0a;border:1px solid rgba(212,100,30,.4);color:#f0a060}
+#toast.on{background:#0a1a0a;border:1px solid rgba(80,180,80,.35);color:#80d080}
 
-.sutra-card::before {
-  content:''; position:absolute; top:0; left:0; right:0; height:1px;
-  background:linear-gradient(90deg,transparent,var(--gold-dim),transparent);
-  opacity:0; transition:opacity 0.3s ease;
-}
-.sutra-card:hover {
-  background: var(--card-hover);
-  border-color: var(--border-hover);
-  box-shadow: var(--shadow-hover);
-  transform: translateY(-2px);
-}
-.sutra-card:hover::before { opacity:1; }
-.sutra-card.faved { border-color: rgba(212,175,55,0.4); }
-[data-theme="light"] .sutra-card.faved { border-color: rgba(160,112,16,0.38); }
+/* cache badge */
+.cache-badge{display:inline-flex;align-items:center;gap:5px;font-family:var(--en);font-size:11px;color:var(--text-3);margin-top:6px;opacity:0;transition:opacity .5s}
+.cache-badge.show{opacity:1}
+.c-dot{width:6px;height:6px;border-radius:50%;background:#80d080;box-shadow:0 0 6px rgba(80,200,80,.5)}
 
-/* Card header row */
-.card-header { display:flex; align-items:flex-start; justify-content:space-between; gap:10px; margin-bottom:12px; }
-.sutra-num {
-  font-family:var(--serif-en); font-size:11px; color:var(--gold-dim);
-  letter-spacing:0.12em; text-transform:uppercase; font-weight:500;
-  padding:3px 10px; border:1px solid var(--border); border-radius:100px;
-  flex-shrink:0; margin-top:2px;
-}
-.fav-btn {
-  background:none; border:none; cursor:pointer; font-size:15px;
-  color:var(--text-muted); transition:var(--t); padding:3px; line-height:1;
-  flex-shrink:0; outline:none;
-}
-.fav-btn:hover { color:var(--gold); transform:scale(1.25); }
-.fav-btn.active { color:var(--gold); filter:drop-shadow(0 0 5px rgba(212,175,55,0.5)); }
+/* footer */
+footer{text-align:center;padding:18px 20px;border-top:1px solid var(--border);margin-top:16px}
+.ft{font-family:var(--en);font-style:italic;font-size:11.5px;color:var(--text-3)}
+.ft-om{color:var(--gold-dim);font-style:normal}
 
-/* Sanskrit */
-.sanskrit {
-  font-family:var(--serif-dev);
-  font-size:clamp(17px,4.2vw,21px); font-weight:500;
-  line-height:1.65; color:var(--text-primary);
-  margin-bottom:13px; letter-spacing:0.01em;
-}
-
-/* Translation */
-.translation {
-  font-size:clamp(13px,3vw,15px); line-height:1.75;
-  color:var(--text-secondary);
-  padding-top:11px; border-top:1px solid var(--border);
-  transition:opacity 0.28s ease;
-}
-.translation.lang-hindi  { font-family:var(--serif-dev); font-weight:300; }
-.translation.lang-english { font-family:var(--serif-en); font-style:italic; font-size:clamp(14px,3.3vw,16px); letter-spacing:0.01em; }
-.translation.fading { opacity:0; }
-
-/* ════════════════════════════════════════
-   FOOTER
-   ════════════════════════════════════════ */
-footer {
-  text-align:center; padding:18px 20px;
-  border-top:1px solid var(--border); margin-top:16px;
-}
-.footer-text { font-family:var(--serif-en); font-style:italic; font-size:11.5px; color:var(--text-muted); }
-.footer-om { color:var(--gold-dim); font-style:normal; }
-
-/* ════════════════════════════════════════
-   SCROLLBAR
-   ════════════════════════════════════════ */
-::-webkit-scrollbar { width:4px; }
-::-webkit-scrollbar-track { background:var(--bg); }
-::-webkit-scrollbar-thumb { background:rgba(212,175,55,0.22); border-radius:4px; }
-::-webkit-scrollbar-thumb:hover { background:rgba(212,175,55,0.42); }
-::selection { background:rgba(212,175,55,0.2); color:var(--gold-light); }
-
-/* ════════════════════════════════════════
-   INSTALL BANNER
-   ════════════════════════════════════════ */
-#installBanner {
-  position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%) translateY(120px);
-  z-index: 500;
-  background: var(--card);
-  border: 1px solid var(--border-hover);
-  border-radius: 16px;
-  padding: 14px 18px;
-  display: flex; align-items: center; gap: 14px;
-  box-shadow: 0 8px 40px rgba(0,0,0,0.55), 0 0 0 1px rgba(212,175,55,0.15);
-  max-width: calc(100vw - 32px);
-  width: 360px;
-  transition: transform 0.45s cubic-bezier(0.34,1.56,0.64,1), opacity 0.4s ease;
-  opacity: 0;
-}
-#installBanner.show { transform: translateX(-50%) translateY(0); opacity: 1; }
-#installBanner.hide { transform: translateX(-50%) translateY(120px); opacity: 0; }
-
-.install-icon { font-size: 26px; flex-shrink: 0; line-height:1; }
-.install-text { flex: 1; min-width: 0; }
-.install-title {
-  font-family: var(--display); font-size: 14px;
-  color: var(--gold-light); letter-spacing: 0.06em; margin-bottom: 2px;
-}
-.install-sub {
-  font-family: var(--serif-en); font-style: italic;
-  font-size: 11.5px; color: var(--text-muted);
-}
-.install-actions { display: flex; gap: 6px; flex-shrink: 0; }
-.install-btn {
-  padding: 7px 14px; border-radius: 100px; border: none;
-  font-family: var(--serif-dev); font-size: 12px;
-  cursor: pointer; outline: none; transition: var(--t);
-  font-weight: 600;
-}
-.install-btn.primary {
-  background: var(--gold); color: #0a0a0a;
-  box-shadow: 0 2px 12px rgba(212,175,55,0.3);
-}
-.install-btn.primary:hover { background: var(--gold-light); transform: scale(1.05); }
-.install-btn.dismiss {
-  background: rgba(255,255,255,0.05);
-  border: 1px solid var(--border);
-  color: var(--text-muted);
-}
-.install-btn.dismiss:hover { color: var(--text-secondary); border-color: var(--border-hover); }
-
-/* ════════════════════════════════════════
-   OFFLINE / ONLINE TOAST
-   ════════════════════════════════════════ */
-#netToast {
-  position: fixed; top: 72px; left: 50%; transform: translateX(-50%) translateY(-20px);
-  z-index: 400;
-  padding: 9px 18px; border-radius: 100px;
-  font-family: var(--serif-dev); font-size: 12.5px; font-weight: 500;
-  display: flex; align-items: center; gap: 7px;
-  opacity: 0; pointer-events: none;
-  transition: opacity 0.3s ease, transform 0.3s ease;
-  white-space: nowrap;
-}
-#netToast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
-#netToast.offline { background: #2a1a0a; border: 1px solid rgba(212,100,30,0.4); color: #f0a060; }
-#netToast.online  { background: #0a1a0a; border: 1px solid rgba(80,180,80,0.35); color: #80d080; }
-
-/* ════════════════════════════════════════
-   CACHE PROGRESS (shown in splash)
-   ════════════════════════════════════════ */
-.splash-cache-status {
-  font-family: var(--serif-en); font-style: italic;
-  font-size: 11px; color: rgba(212,175,55,0.45);
-  margin-top: 10px; letter-spacing: 0.06em;
-  min-height: 16px; transition: opacity 0.3s ease;
-}
-
-/* ════════════════════════════════════════
-   CACHED BADGE in footer
-   ════════════════════════════════════════ */
-.cache-badge {
-  display: inline-flex; align-items: center; gap: 5px;
-  font-family: var(--serif-en); font-size: 11px;
-  color: var(--text-muted); margin-top: 6px;
-  opacity: 0; transition: opacity 0.5s ease;
-}
-.cache-badge.show { opacity: 1; }
-.cache-dot {
-  width: 6px; height: 6px; border-radius: 50%;
-  background: #80d080;
-  box-shadow: 0 0 6px rgba(80,200,80,0.5);
-}
-
-/* ════════════════════════════════════════
-   RESPONSIVE
-   ════════════════════════════════════════ */
+/* responsive */
 @media(max-width:480px){
-  .sutra-card { padding:18px 16px 14px; }
-  .brand-tagline { display:none; }
-  .lang-btn { padding:5px 10px; }
-  #installBanner { width: calc(100vw - 32px); }
+  .card{padding:18px 16px 14px}
+  .b-tag{display:none}
+  .lang-btn{padding:5px 10px}
+  #instBanner{width:calc(100vw - 32px)}
 }
 </style>
 </head>
 <body>
 
-<!-- ── SPLASH ── -->
+<!-- SPLASH -->
 <div id="splash">
-  <div class="splash-om">ॐ</div>
-  <div class="splash-title">Shiv Sutra</div>
-  <div class="splash-sub">शिव सूत्र · Know Yourself as Consciousness</div>
-  <div class="splash-loader"></div>
-  <div class="splash-cache-status" id="splashStatus">जागृत हो रहा है…</div>
+  <div class="s-om">ॐ</div>
+  <div class="s-title">Shiv Sutra</div>
+  <div class="s-sub">शिव सूत्र · Know Yourself as Consciousness</div>
+  <div class="s-bar"></div>
+  <div class="s-status" id="splashSt">Loading sutras…</div>
 </div>
 
-<!-- ── HEADER ── -->
+<!-- INSTALL BANNER -->
+<div id="instBanner">
+  <div class="ib-icon">🕉️</div>
+  <div class="ib-text">
+    <div class="ib-title">Install Shiv Sutra</div>
+    <div class="ib-sub">Offline पढ़ें · Works without internet</div>
+  </div>
+  <div class="ib-acts">
+    <button class="ib-btn p" onclick="doInstall()">Install</button>
+    <button class="ib-btn d" onclick="dismissInstall()">✕</button>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div id="toast"></div>
+
+<!-- HEADER -->
 <header>
-  <div class="header-inner">
+  <div class="h-inner">
     <a class="brand" href="#">
-      <span class="brand-om">ॐ</span>
-      <span class="brand-text">
-        <span class="brand-name">Shiv Sutra</span>
-        <span class="brand-tagline">Know Yourself as Consciousness</span>
+      <span class="b-om">ॐ</span>
+      <span class="b-text">
+        <span class="b-name">Shiv Sutra</span>
+        <span class="b-tag">Know Yourself as Consciousness</span>
       </span>
     </a>
-
-    <div class="header-controls">
-      <!-- Language toggle -->
-      <div class="lang-toggle">
+    <div class="h-controls">
+      <div class="lang-tog">
         <button class="lang-btn active" data-lang="hindi"   onclick="setLang('hindi')">हिंदी</button>
         <button class="lang-btn"        data-lang="english" onclick="setLang('english')">English</button>
       </div>
-      <!-- Theme toggle -->
-      <button class="theme-btn" id="themeBtn" onclick="toggleTheme()" title="Toggle light/dark mode">🌙</button>
+      <button class="theme-btn" id="themeBtn" onclick="toggleTheme()" title="Toggle theme">🌙</button>
     </div>
   </div>
 </header>
 
-<!-- ── INSTALL BANNER ── -->
-<div id="installBanner">
-  <div class="install-icon">🕉️</div>
-  <div class="install-text">
-    <div class="install-title">Install Shiv Sutra</div>
-    <div class="install-sub">Offline पढ़ें · Works without internet</div>
-  </div>
-  <div class="install-actions">
-    <button class="install-btn primary" onclick="doInstall()">Install</button>
-    <button class="install-btn dismiss" onclick="dismissInstall()">✕</button>
-  </div>
-</div>
+<!-- STATS -->
+<div class="stats"><span><b id="sCount">77</b> सूत्र · Sutras</span></div>
 
-<!-- ── NETWORK TOAST ── -->
-<div id="netToast"></div>
-
-<!-- ── STATS ── -->
-<div class="stats-bar">
-  <span class="stats-count"><span class="stats-gold">77</span> सूत्र · Sutras</span>
-</div>
-
-<!-- ── MAIN ── -->
+<!-- MAIN -->
 <main id="main"></main>
 
 <footer>
-  <div class="footer-text"><span class="footer-om">ॐ</span> नमः शिवाय · Shiv Sutra PWA</div>
-  <div class="cache-badge" id="cacheBadge"><span class="cache-dot"></span>Saved offline · Offline उपलब्ध</div>
+  <div class="ft"><span class="ft-om">ॐ</span> नमः शिवाय · Shiv Sutra PWA</div>
+  <div class="cache-badge" id="cacheBadge"><span class="c-dot"></span>Saved offline · Offline उपलब्ध</div>
 </footer>
 
 <script>
-/* ══════════════════════════════════════════
-   DATA — All 77 Shiva Sutras
-   ══════════════════════════════════════════ */
-const CHAPTERS = [
-  { id:1, name:"शाम्भवोपाय · Shambhavopaya", range:[1,21]  },
-  { id:2, name:"शाक्तोपाय · Shaktopaya",     range:[22,41] },
-  { id:3, name:"आणवोपाय · Anavopaya",         range:[42,77] }
-];
+/* ══════ STATE ══════ */
+let SUTRAS = [], CHAPTERS = [];
+let lang  = localStorage.getItem('ss-lang')  || 'hindi';
+let theme = localStorage.getItem('ss-theme') || 'dark';
+let favs  = JSON.parse(localStorage.getItem('ss-favs') || '[]');
 
-const SUTRAS = [
-  {id:1,  sanskrit:"चैतन्यमात्मा",                              hindi:"चेतना ही आत्मा है",                                          english:"Consciousness is the Self"},
-  {id:2,  sanskrit:"ज्ञानं बन्धः",                               hindi:"(सीमित) ज्ञान ही बंधन है",                                   english:"Knowledge (of limited self) is bondage"},
-  {id:3,  sanskrit:"योनिवर्गः कलाशरीरम्",                       hindi:"माया की शक्तियाँ ही शरीर का निर्माण करती हैं",              english:"The groups of sources of knowledge are the body of limited self"},
-  {id:4,  sanskrit:"ज्ञानाधिष्ठानं मातृका",                     hindi:"मातृका (वर्णमाला) ज्ञान का आधार है",                        english:"The alphabet (Matrika) is the foundation of knowledge"},
-  {id:5,  sanskrit:"उद्यमो भैरवः",                               hindi:"उत्साहपूर्ण प्रयास ही भैरव है",                             english:"Enthusiastic effort itself is Bhairava"},
-  {id:6,  sanskrit:"शक्तिचक्रसन्धाने विश्वसंहारः",              hindi:"शक्तिचक्र के संधान से विश्व का संहार होता है",              english:"Union of the wheel of powers dissolves the universe"},
-  {id:7,  sanskrit:"जाग्रत्स्वप्नसुषुप्तभेदे तुर्याभोगसम्भवः",  hindi:"जाग्रत, स्वप्न और सुषुप्ति से परे तुर्यावस्था का अनुभव",   english:"The experience of the fourth state pervades the other three"},
-  {id:8,  sanskrit:"ज्ञानं जाग्रत्",                             hindi:"ज्ञान जाग्रत अवस्था है",                                     english:"Knowledge is the waking state"},
-  {id:9,  sanskrit:"स्वप्नो विकल्पाः",                           hindi:"स्वप्न विकल्प ही हैं",                                       english:"Dream is the activity of thoughts"},
-  {id:10, sanskrit:"अविवेको मायासौषुप्तम्",                     hindi:"विवेकहीनता माया-निद्रा है",                                  english:"Non-discernment is the sleep of Maya"},
-  {id:11, sanskrit:"त्रितयभोक्ता वीरेशः",                       hindi:"तीनों अवस्थाओं का भोक्ता वीरेश है",                         english:"The enjoyer of the three states is the Lord of heroes"},
-  {id:12, sanskrit:"विस्मयो योगभूमिकाः",                        hindi:"विस्मय (आश्चर्य) योग की भूमि है",                           english:"Wonder is the ground of yoga"},
-  {id:13, sanskrit:"इच्छाशक्तिरुमा कुमारी",                     hindi:"इच्छाशक्ति उमा, कुमारी है",                                  english:"Will power is Uma, the young virgin"},
-  {id:14, sanskrit:"दृश्यं शरीरम्",                              hindi:"दृश्य जगत् ही शरीर है",                                     english:"The visible world is the body"},
-  {id:15, sanskrit:"हृदये चित्तसंघट्टाद् दृश्यस्वाप दर्शनम्",   hindi:"हृदय में चित्त के एकाग्र होने से स्वप्न का दर्शन",         english:"By focusing the mind in the heart, one perceives the dream"},
-  {id:16, sanskrit:"शुद्धतत्त्वसन्धानाद् वा अपशुशक्तिः",        hindi:"शुद्ध तत्त्व के संधान से अपशु की शक्ति प्रकट होती है",      english:"By union with pure reality, the power of the freed one manifests"},
-  {id:17, sanskrit:"वितर्क आत्मज्ञानम्",                        hindi:"विचार ही आत्मज्ञान है",                                      english:"Right reasoning leads to Self-knowledge"},
-  {id:18, sanskrit:"लोकानन्दः समाधिसुखम्",                      hindi:"जगत् का आनंद ही समाधि का सुख है",                           english:"The bliss of the world is the joy of samadhi"},
-  {id:19, sanskrit:"शक्तिसन्धाने शरीरोत्पत्तिः",                hindi:"शक्ति के संधान से शरीर की उत्पत्ति होती है",                english:"By union with Shakti, the body comes into existence"},
-  {id:20, sanskrit:"भूतसन्धानभूतपृथक्त्वविश्वसंघट्टाः",         hindi:"तत्त्वों का संघ, पृथक्करण एवं विश्व-संघ",                  english:"Union of elements, their separation, and union of the universe"},
-  {id:21, sanskrit:"शुद्धविद्योदयाच्चक्रेशत्वसिद्धिः",           hindi:"शुद्ध विद्या के उदय से चक्रेश-पद की सिद्धि होती है",       english:"With the rise of pure knowledge, lordship of the cycles is attained"},
-  {id:22, sanskrit:"चित्तं मन्त्रः",                              hindi:"चित्त ही मन्त्र है",                                         english:"The mind (in enlightened state) is mantra"},
-  {id:23, sanskrit:"प्रयत्नः साधकः",                             hindi:"प्रयत्न ही साधक है",                                         english:"Effort is the spiritual seeker"},
-  {id:24, sanskrit:"विद्याशरीरसत्ता मन्त्ररहस्यम्",               hindi:"विद्या-शरीर की सत्ता ही मन्त्र का रहस्य है",                english:"The existence of the knowledge body is the secret of mantra"},
-  {id:25, sanskrit:"गर्भे चित्तविकासोऽविशिष्टविद्यास्वप्नः",     hindi:"गर्भ में चित्त के विकास का स्वप्न अविशिष्ट विद्या है",      english:"The dream of undifferentiated knowledge is the expansion of mind in womb"},
-  {id:26, sanskrit:"विद्यासमुत्थाने स्वाभाविके खेचरी शिवावस्था",  hindi:"स्वाभाविक विद्योदय पर खेचरी शिव की अवस्था है",            english:"When knowledge arises naturally, the state of Shiva like Khechara appears"},
-  {id:27, sanskrit:"गुरुरुपायः",                                 hindi:"गुरु ही उपाय है",                                            english:"The Guru is the means"},
-  {id:28, sanskrit:"यथा तत्र तथान्यत्र",                         hindi:"जैसा वहाँ, वैसा अन्यत्र भी",                                 english:"As it is there, so it is elsewhere"},
-  {id:29, sanskrit:"शिवसद्भावो भावना",                           hindi:"शिव की सत्ता का ध्यान ही भावना है",                         english:"Meditation on the existence of Shiva is contemplation"},
-  {id:30, sanskrit:"स्वशक्त्यप्रबोधे स्वस्थितिः",                hindi:"अपनी शक्ति के अप्रकट होने पर स्वस्थिति है",                 english:"When one's own power is unawakened, one remains in limited self"},
-  {id:31, sanskrit:"स्वमात्रनिर्माणमापादयति",                    hindi:"वह अपनी माप से ही निर्माण करता है",                         english:"He creates by the measure of himself alone"},
-  {id:32, sanskrit:"स्थितिलयौ",                                  hindi:"स्थिति और लय",                                               english:"Maintenance and dissolution"},
-  {id:33, sanskrit:"तदन्तः प्रमितिश्चेत् केवलाघोरभैरवः",         hindi:"यदि उसमें प्रमिति हो तो केवल अघोर भैरव है",                  english:"If there is knowledge in that, it is but the pure Aghora Bhairava"},
-  {id:34, sanskrit:"मायाप्रमाता",                                 hindi:"माया का प्रमाता",                                            english:"The subject of Maya (limited self)"},
-  {id:35, sanskrit:"मध्येऽवरप्रसवः",                             hindi:"मध्य में अवर (निम्न) की उत्पत्ति",                           english:"In the middle, the inferior (limited creation) is born"},
-  {id:36, sanskrit:"मात्रास्वप्रत्ययसन्धाने नष्टस्य पुनरुत्थानम्",hindi:"मात्राओं के प्रत्यय के संधान से नष्ट का पुनरुत्थान",    english:"Union of awareness with phonemes revives the lost (spiritual life)"},
-  {id:37, sanskrit:"क्रीडात्मा केवलः शिवः",                      hindi:"क्रीड़ा-स्वभाव वाला केवल शिव है",                            english:"Playful by nature, Shiva is the absolute"},
-  {id:38, sanskrit:"मोहप्रतिसंहतस्तु कर्मात्मा",                 hindi:"मोह से ग्रस्त जीव कर्मात्मा है",                             english:"But the one deluded is bound to action (karma)"},
-  {id:39, sanskrit:"परिशेषाद्विकल्पस्य वास्तवं ज्ञानम्",         hindi:"विकल्पों के परिशेष से वास्तविक ज्ञान होता है",              english:"From the residue of thoughts comes real knowledge"},
-  {id:40, sanskrit:"भूतकञ्चुकी तदा विमुक्तो भूयः पतिसमः परः",   hindi:"भूतों के कवच में से मुक्त होने पर वह पति के समान है",        english:"Freed from the armor of elements, he becomes equal to the Lord"},
-  {id:41, sanskrit:"नाडीसंहारभूतजयभूतकैवल्यभूतपृथक्त्वानि",     hindi:"नाड़ी-संहार, भूतजय, भूत-कैवल्य और भूत-पृथक्त्व",          english:"Control of nadis, mastery of elements, detachment of elements"},
-  {id:42, sanskrit:"आत्मचित्तं",                                 hindi:"आत्मा ही चित्त है",                                          english:"The Self is the mind"},
-  {id:43, sanskrit:"ज्ञानं अन्नम्",                              hindi:"ज्ञान ही भोजन है",                                           english:"Knowledge is the food"},
-  {id:44, sanskrit:"विद्यासंहारे तदुत्थ स्वप्नदर्शनम्",          hindi:"विद्या के संहार पर तदुत्थ स्वप्न का दर्शन",                 english:"On dissolution of knowledge, the arising dream becomes visible"},
-  {id:45, sanskrit:"नर्तक आत्मा",                                hindi:"आत्मा नर्तक है",                                             english:"The Self is the dancer"},
-  {id:46, sanskrit:"रङ्गोऽन्तरात्मा",                            hindi:"रंगमंच अंतरात्मा है",                                        english:"The inner Self is the stage"},
-  {id:47, sanskrit:"प्रेक्षकाणीन्द्रियाणि",                     hindi:"इन्द्रियाँ दर्शक हैं",                                        english:"The senses are the spectators"},
-  {id:48, sanskrit:"धीवशात् सत्त्वसिद्धिः",                     hindi:"बुद्धि के वश से सत्त्व की सिद्धि होती है",                    english:"By the power of the intellect, sattva is attained"},
-  {id:49, sanskrit:"सिद्धः स्वतन्त्रभावः",                      hindi:"सिद्ध का भाव स्वतंत्र होता है",                              english:"The perfected one has a free nature"},
-  {id:50, sanskrit:"यथा तत्र तथान्यत्र",                         hindi:"जैसा वहाँ, वैसा अन्यत्र भी",                                 english:"As within, so without"},
-  {id:51, sanskrit:"तत्र प्रवृत्तावप्यनिरासः संवेत्तृभावात्",    hindi:"वहाँ प्रवृत्ति में भी संवेत्ता भाव से निरास नहीं",          english:"Even in activity there, awareness is not lost"},
-  {id:52, sanskrit:"कलासंहारे तदुत्थभुवनदर्शनं",                hindi:"कला के संहार पर तदुत्थ भुवन-दर्शन",                         english:"On dissolution of kala, the world arising from it becomes visible"},
-  {id:53, sanskrit:"नाभो देहसंहारे",                             hindi:"देह के संहार पर नाभि का उदय",                                english:"On the dissolution of the body, the void arises"},
-  {id:54, sanskrit:"शक्ति-संधाने शरीरोत्पत्तिः",                hindi:"शक्ति के संधान से शरीर की उत्पत्ति",                         english:"Through union with Shakti, the body is born"},
-  {id:55, sanskrit:"विश्वमादर्शयोग्यत्वात्",                     hindi:"विश्व दर्पण के योग्य है",                                    english:"The universe is fit to be reflected (in the mirror of consciousness)"},
-  {id:56, sanskrit:"कृत्योत्पत्तौ शरीरसंकोचः",                  hindi:"क्रिया की उत्पत्ति पर शरीर का संकोच",                        english:"At the rise of action, the body contracts"},
-  {id:57, sanskrit:"ज्ञानस्य ज्ञेयो ज्ञातृ",                    hindi:"ज्ञान का ज्ञेय ज्ञाता है",                                   english:"The knower is the object of knowledge for higher knowledge"},
-  {id:58, sanskrit:"नित्यो विभुरव्याप्तः क्षेत्रज्ञः",           hindi:"नित्य, विभु, अव्याप्त क्षेत्रज्ञ",                           english:"The knower of the field is eternal, all-pervading, uncontained"},
-  {id:59, sanskrit:"सुखदुःखयोर्बहिर्मननम्",                     hindi:"सुख और दुःख में बाहरी मनन",                                  english:"Pondering pleasure and pain externally"},
-  {id:60, sanskrit:"तद्विमुक्तस्तु केवली",                      hindi:"उससे मुक्त तो केवली है",                                    english:"One freed from that alone is liberated"},
-  {id:61, sanskrit:"मोहावरणात् सिद्ध्यन्तर्धानम्",               hindi:"मोह के आवरण से सिद्धि का अंतर्धान",                         english:"Powers disappear due to the veil of delusion"},
-  {id:62, sanskrit:"आसनस्थः सुखं हृदे निमज्जति",                hindi:"आसन पर स्थित व्यक्ति सुखपूर्वक हृदय में निमज्जित होता है", english:"Seated, one dives blissfully into the heart"},
-  {id:63, sanskrit:"स्वमात्रा निर्माणमापादयति",                  hindi:"अपनी मात्रा से निर्माण की प्राप्ति",                         english:"One brings about creation by one's own measure"},
-  {id:64, sanskrit:"विद्या विनाशे जन्मविनाशः",                   hindi:"विद्या के नाश पर जन्म का नाश",                               english:"On the destruction of limited knowledge, birth is destroyed"},
-  {id:65, sanskrit:"कवर्गादिषु माहेश्वर्याद्याः पशुमातरः",       hindi:"कवर्गादि में माहेश्वरी आदि पशु की माताएँ हैं",              english:"In the consonants beginning with ka, the mothers of bound souls dwell"},
-  {id:66, sanskrit:"त्रिषु चतुर्थं तैलवदासेच्यम्",               hindi:"तीनों (अवस्थाओं) में चौथी को तेल की तरह डालना है",          english:"The fourth (state) should be poured like oil into the three"},
-  {id:67, sanskrit:"मग्नः स्वचित्तेन प्रविशेत्",                 hindi:"चित्त में मग्न होकर प्रवेश करे",                             english:"Immersed in one's own mind, one should enter (the Supreme)"},
-  {id:68, sanskrit:"प्राणसमाचारे समदर्शनम्",                     hindi:"प्राण के समाचार में समदर्शन",                                 english:"In the movement of prana, equal vision arises"},
-  {id:69, sanskrit:"मध्यविकासाच्चिदानन्दलाभः",                  hindi:"मध्य के विकास से चिदानंद की प्राप्ति",                       english:"From the expansion of the center, the bliss of consciousness is gained"},
-  {id:70, sanskrit:"वायोर्द्वयमध्ये प्रविशेत्",                  hindi:"दो वायुओं के मध्य में प्रवेश करे",                            english:"One should enter into the center between the two airs (prana-apana)"},
-  {id:71, sanskrit:"यत्र यत्र मनस्तुष्टिः मनस्तत्रैव धारयेत्",   hindi:"जहाँ-जहाँ मन तुष्ट हो, वहीं उसे धारण करे",                  english:"Wherever the mind finds satisfaction, hold it there"},
-  {id:72, sanskrit:"अत्राप्यनिरोधस्तादृशस्वभावात्",              hindi:"यहाँ भी निरोध नहीं, ऐसे स्वभाव से",                          english:"Even here there is no suppression, because of such a nature"},
-  {id:73, sanskrit:"लयविभवः",                                    hindi:"लय और विभव",                                                english:"Dissolution and expansion"},
-  {id:74, sanskrit:"स्थितिलयौ",                                  hindi:"स्थिति और लय",                                               english:"Maintenance and dissolution (the two poles of Shiva's play)"},
-  {id:75, sanskrit:"ततः शब्दार्थचिन्तनम्",                       hindi:"तत्पश्चात् शब्द और अर्थ का चिंतन",                           english:"Then comes reflection on word and meaning"},
-  {id:76, sanskrit:"सेचनं केनचित्",                              hindi:"किसी के द्वारा सींचना",                                      english:"Irrigation by someone (the Guru's grace)"},
-  {id:77, sanskrit:"गुणग्रासेन ग्राहकः",                         hindi:"गुणों के ग्रहण से ग्राहक बनता है",                           english:"By absorbing qualities, one becomes the perceiver"},
-];
+/* ══════ THEME (apply immediately) ══════ */
+applyTheme(theme, false);
+document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
 
-/* ══════════════════════════════════════════
-   STATE
-   ══════════════════════════════════════════ */
-let currentLang  = localStorage.getItem('ss-lang')  || 'hindi';
-let currentTheme = localStorage.getItem('ss-theme') || 'dark';
-let favorites    = JSON.parse(localStorage.getItem('ss-favs') || '[]');
+function applyTheme(t, anim=true) {
+  document.documentElement.setAttribute('data-theme', t);
+  const btn = document.getElementById('themeBtn');
+  const meta = document.getElementById('themeColorMeta');
+  if (btn)  btn.textContent = t === 'dark' ? '🌙' : '☀️';
+  if (meta) meta.content    = t === 'dark' ? '#0a0a0a' : '#fdf8ee';
+}
+function toggleTheme() {
+  theme = theme === 'dark' ? 'light' : 'dark';
+  localStorage.setItem('ss-theme', theme);
+  applyTheme(theme);
+}
 
-/* ══════════════════════════════════════════
-   INIT
-   ══════════════════════════════════════════ */
-// Apply saved theme immediately (before splash)
-applyTheme(currentTheme, false);
-
-// Apply saved lang button state
-document.querySelectorAll('.lang-btn').forEach(b => {
-  b.classList.toggle('active', b.dataset.lang === currentLang);
-});
-
-window.addEventListener('load', () => {
+/* ══════ LOAD DATA ══════ */
+window.addEventListener('load', async () => {
+  const st = document.getElementById('splashSt');
+  try {
+    st.textContent = 'Loading sutras.json…';
+    const res  = await fetch('./sutras.json');
+    const data = await res.json();
+    SUTRAS   = data.sutras;
+    CHAPTERS = data.chapters;
+    st.textContent = `✓ ${SUTRAS.length} sutras loaded`;
+  } catch(e) {
+    st.textContent = 'Error loading data';
+    console.error(e);
+  }
   setTimeout(() => {
     document.getElementById('splash').classList.add('hidden');
     renderCards();
@@ -602,219 +290,167 @@ window.addEventListener('load', () => {
   }, 2000);
 });
 
-/* ══════════════════════════════════════════
-   THEME
-   ══════════════════════════════════════════ */
-function applyTheme(theme, animate = true) {
-  document.documentElement.setAttribute('data-theme', theme);
-  const btn  = document.getElementById('themeBtn');
-  const meta = document.getElementById('themeColorMeta');
-  if (btn)  btn.textContent = theme === 'dark' ? '🌙' : '☀️';
-  if (meta) meta.content    = theme === 'dark' ? '#0a0a0a' : '#fdf8ee';
-}
-
-function toggleTheme() {
-  currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
-  localStorage.setItem('ss-theme', currentTheme);
-  applyTheme(currentTheme);
-}
-
-/* ══════════════════════════════════════════
-   RENDER
-   ══════════════════════════════════════════ */
+/* ══════ RENDER ══════ */
 function renderCards() {
   const main = document.getElementById('main');
   main.innerHTML = '';
-
   let lastCh = 0;
+
   SUTRAS.forEach((s, idx) => {
     const ch = CHAPTERS.find(c => s.id >= c.range[0] && s.id <= c.range[1]);
     if (ch && ch.id !== lastCh) {
       const div = document.createElement('div');
-      div.className = 'chapter-divider';
-      div.innerHTML = `<span class="chapter-label">${ch.name}</span>`;
+      div.className = 'ch-div';
+      div.innerHTML = `<div><span class="ch-label">अध्याय ${ch.id} · ${ch.nameEn}</span></div>
+                       <div class="ch-sub">${ch.subtitle}</div>`;
       main.appendChild(div);
       lastCh = ch.id;
     }
 
-    const isFav = favorites.includes(s.id);
+    const isFav = favs.includes(s.id);
     const card  = document.createElement('div');
-    card.className = 'sutra-card' + (isFav ? ' faved' : '');
+    card.className = 'card' + (isFav ? ' faved' : '');
     card.dataset.id = s.id;
-    card.style.transitionDelay = `${Math.min(idx * 0.025, 0.55)}s`;
+    card.style.transitionDelay = `${Math.min(idx * 0.022, 0.5)}s`;
+
+    const oshoText  = lang === 'hindi' ? s.osho_hindi  : s.osho_english;
+    const transText = lang === 'hindi' ? s.hindi       : s.english;
+    const transClass = lang === 'hindi' ? 'hi' : 'en';
+    const oshoClass  = lang === 'hindi' ? 'hi' : 'en';
+
     card.innerHTML = `
-      <div class="card-header">
-        <span class="sutra-num">सूत्र ${String(s.id).padStart(2,'0')}</span>
-        <button class="fav-btn ${isFav?'active':''}" onclick="toggleFav(${s.id},this)" title="Favorite">
-          ${isFav?'★':'☆'}
-        </button>
+      <div class="c-head">
+        <span class="s-num">सूत्र ${String(s.id).padStart(2,'0')}</span>
+        <button class="fav-btn ${isFav?'on':''}" onclick="toggleFav(${s.id},this)" title="Favorite">${isFav?'★':'☆'}</button>
       </div>
-      <div class="sanskrit">${s.sanskrit}</div>
-      <div class="translation ${currentLang==='hindi'?'lang-hindi':'lang-english'}" data-id="${s.id}">
-        ${currentLang==='hindi' ? s.hindi : s.english}
+      <div class="skt">${s.sanskrit}</div>
+      <div class="trans ${transClass}" data-id="${s.id}">${transText}</div>
+      <button class="osho-btn" onclick="toggleOsho(this)" title="Osho commentary">
+        <span>ओशो · Osho</span><span class="arr">▾</span>
+      </button>
+      <div class="osho-block">
+        <div class="osho-label">ओशो — Osho Commentary</div>
+        <div class="osho-text ${oshoClass}" data-id="${s.id}">${oshoText}</div>
       </div>`;
+
     main.appendChild(card);
   });
   setupObserver();
 }
 
-/* ══════════════════════════════════════════
-   LANGUAGE TOGGLE
-   ══════════════════════════════════════════ */
-function setLang(lang) {
-  if (lang === currentLang) return;
-  currentLang = lang;
-  localStorage.setItem('ss-lang', lang);
-  document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
+/* ══════ OSHO TOGGLE ══════ */
+function toggleOsho(btn) {
+  const block = btn.nextElementSibling;
+  const isOpen = block.classList.toggle('open');
+  btn.classList.toggle('open', isOpen);
+}
 
-  const els = document.querySelectorAll('.translation');
-  els.forEach(el => el.classList.add('fading'));
+/* ══════ LANGUAGE ══════ */
+function setLang(l) {
+  if (l === lang) return;
+  lang = l;
+  localStorage.setItem('ss-lang', l);
+  document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.dataset.lang === l));
+
+  const trans = document.querySelectorAll('.trans');
+  const oshos = document.querySelectorAll('.osho-text');
+  trans.forEach(el => el.classList.add('fade'));
   setTimeout(() => {
-    els.forEach(el => {
+    trans.forEach(el => {
       const s = SUTRAS.find(x => x.id === +el.dataset.id);
       if (!s) return;
-      el.textContent = lang === 'hindi' ? s.hindi : s.english;
-      el.className = `translation ${lang==='hindi'?'lang-hindi':'lang-english'}`;
+      el.textContent = l === 'hindi' ? s.hindi : s.english;
+      el.className = `trans ${l==='hindi'?'hi':'en'}`;
     });
-    requestAnimationFrame(() => els.forEach(el => el.classList.remove('fading')));
+    oshos.forEach(el => {
+      const s = SUTRAS.find(x => x.id === +el.dataset.id);
+      if (!s) return;
+      el.textContent = l === 'hindi' ? s.osho_hindi : s.osho_english;
+      el.className = `osho-text ${l==='hindi'?'hi':'en'}`;
+    });
+    requestAnimationFrame(() => trans.forEach(el => el.classList.remove('fade')));
   }, 270);
 }
 
-/* ══════════════════════════════════════════
-   FAVORITES
-   ══════════════════════════════════════════ */
+/* ══════ FAVORITES ══════ */
 function toggleFav(id, btn) {
-  const i = favorites.indexOf(id);
-  if (i === -1) {
-    favorites.push(id);
-    btn.textContent = '★'; btn.classList.add('active');
-    btn.closest('.sutra-card').classList.add('faved');
-  } else {
-    favorites.splice(i,1);
-    btn.textContent = '☆'; btn.classList.remove('active');
-    btn.closest('.sutra-card').classList.remove('faved');
-  }
-  localStorage.setItem('ss-favs', JSON.stringify(favorites));
+  const i = favs.indexOf(id);
+  if (i === -1) { favs.push(id); btn.textContent='★'; btn.classList.add('on'); btn.closest('.card').classList.add('faved'); }
+  else { favs.splice(i,1); btn.textContent='☆'; btn.classList.remove('on'); btn.closest('.card').classList.remove('faved'); }
+  localStorage.setItem('ss-favs', JSON.stringify(favs));
 }
 
-/* ══════════════════════════════════════════
-   SCROLL OBSERVER
-   ══════════════════════════════════════════ */
+/* ══════ SCROLL OBSERVER ══════ */
 function setupObserver() {
   const obs = new IntersectionObserver(entries => {
-    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); } });
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('vis'); obs.unobserve(e.target); } });
   }, { threshold: 0.04, rootMargin: '0px 0px -16px 0px' });
-  document.querySelectorAll('.sutra-card:not(.visible)').forEach(c => obs.observe(c));
+  document.querySelectorAll('.card:not(.vis)').forEach(c => obs.observe(c));
 }
 
-/* ══════════════════════════════════════════
-   SERVICE WORKER + INSTALL + OFFLINE SYSTEM
-   ══════════════════════════════════════════ */
-
-let deferredInstallPrompt = null;
-
-// ── Capture install prompt ──
+/* ══════ INSTALL / OFFLINE ══════ */
+let dip = null;
 window.addEventListener('beforeinstallprompt', e => {
-  e.preventDefault();
-  deferredInstallPrompt = e;
-  // Show banner after a short delay (not during splash)
-  setTimeout(showInstallBanner, 4000);
+  e.preventDefault(); dip = e;
+  setTimeout(showBanner, 4000);
 });
-
-// ── Hide banner if already installed ──
 window.addEventListener('appinstalled', () => {
-  hideInstallBanner();
-  showToast('✓ Install हो गया! Offline उपलब्ध है', 'online', 3500);
+  hideBanner();
+  showToast('✓ Installed! Offline ready', 'on', 3500);
   document.getElementById('cacheBadge').classList.add('show');
 });
 
-function showInstallBanner() {
-  // Don't show if already dismissed this session
-  if (sessionStorage.getItem('ss-install-dismissed')) return;
-  // Don't show if running as standalone PWA
+function showBanner() {
+  if (sessionStorage.getItem('ss-ib')) return;
   if (window.matchMedia('(display-mode: standalone)').matches) return;
-  document.getElementById('installBanner').classList.add('show');
+  document.getElementById('instBanner').classList.add('show');
 }
-
-function hideInstallBanner() {
-  const b = document.getElementById('installBanner');
-  b.classList.remove('show');
-  b.classList.add('hide');
+function hideBanner() {
+  const b = document.getElementById('instBanner');
+  b.classList.remove('show'); b.classList.add('hide');
 }
-
 function doInstall() {
-  if (!deferredInstallPrompt) return;
-  hideInstallBanner();
-  deferredInstallPrompt.prompt();
-  deferredInstallPrompt.userChoice.then(result => {
-    deferredInstallPrompt = null;
-    if (result.outcome === 'accepted') {
-      showToast('✓ Installing… please wait', 'online', 2500);
-    }
-  });
+  if (!dip) return; hideBanner();
+  dip.prompt();
+  dip.userChoice.then(r => { dip = null; if (r.outcome==='accepted') showToast('Installing…','on',2500); });
 }
+function dismissInstall() { hideBanner(); sessionStorage.setItem('ss-ib','1'); }
 
-function dismissInstall() {
-  hideInstallBanner();
-  sessionStorage.setItem('ss-install-dismissed', '1');
+function showToast(msg, type, dur=3000) {
+  const t = document.getElementById('toast');
+  t.textContent = msg; t.className = `show ${type}`;
+  clearTimeout(t._t); t._t = setTimeout(() => { t.className = type; }, dur);
 }
+window.addEventListener('offline', () => showToast('📵 Offline — Cache से चल रहा है','off',5000));
+window.addEventListener('online',  () => showToast('✓ Online — Connected','on',3000));
 
-// ── Network status toasts ──
-function showToast(msg, type, duration = 3000) {
-  const t = document.getElementById('netToast');
-  t.textContent = msg;
-  t.className = `show ${type}`;
-  clearTimeout(t._timer);
-  t._timer = setTimeout(() => { t.className = type; }, duration);
-}
-
-window.addEventListener('offline', () => {
-  showToast('📵 Offline — Cache से चल रहा है', 'offline', 5000);
-});
-window.addEventListener('online', () => {
-  showToast('✓ Online — Connected', 'online', 3000);
-});
-
-// ── Service Worker Registration ──
+/* ══════ SERVICE WORKER ══════ */
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('./sw.js')
-      .then(reg => {
-        console.log('[SW] Registered');
-
-        // Show "cached" badge once SW is active
-        if (reg.active) {
-          setTimeout(() => document.getElementById('cacheBadge').classList.add('show'), 1500);
-        }
-
-        // Listen for SW state changes
-        reg.addEventListener('updatefound', () => {
-          const newWorker = reg.installing;
-          newWorker.addEventListener('statechange', () => {
-            if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
-              showToast('↻ App updated — Refresh करें', 'online', 6000);
-            }
-            if (newWorker.state === 'activated') {
-              document.getElementById('cacheBadge').classList.add('show');
-              document.getElementById('splashStatus').textContent = '✓ Offline के लिए save हो गया';
-            }
-          });
-        });
-
-        // Message channel: track cache progress from SW
-        navigator.serviceWorker.addEventListener('message', e => {
-          if (e.data && e.data.type === 'CACHE_PROGRESS') {
-            const el = document.getElementById('splashStatus');
-            if (el) el.textContent = e.data.msg;
-          }
-          if (e.data && e.data.type === 'CACHED') {
+    navigator.serviceWorker.register('./sw.js').then(reg => {
+      if (reg.active) setTimeout(() => document.getElementById('cacheBadge').classList.add('show'), 1500);
+      reg.addEventListener('updatefound', () => {
+        const w = reg.installing;
+        w.addEventListener('statechange', () => {
+          if (w.state === 'installed' && navigator.serviceWorker.controller)
+            showToast('↻ App updated — Refresh करें','on',6000);
+          if (w.state === 'activated') {
             document.getElementById('cacheBadge').classList.add('show');
-            const el = document.getElementById('splashStatus');
-            if (el) el.textContent = '✓ Offline के लिए save हो गया';
+            document.getElementById('splashSt').textContent = '✓ Offline saved';
           }
         });
-      })
-      .catch(err => console.warn('[SW] Failed:', err));
+      });
+    }).catch(e => console.warn('SW:',e));
+
+    navigator.serviceWorker.addEventListener('message', e => {
+      if (e.data?.type === 'CACHE_PROGRESS') {
+        const el = document.getElementById('splashSt');
+        if (el) el.textContent = e.data.msg;
+      }
+      if (e.data?.type === 'CACHED') {
+        document.getElementById('cacheBadge').classList.add('show');
+      }
+    });
   });
 }
 </script>
