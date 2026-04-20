@@ -1,0 +1,727 @@
+{
+  "meta": {
+    "title": "शिव सूत्र",
+    "source": "Vasugupta (c. 850 CE) — Kashmir Shaivism",
+    "chapters": 3,
+    "total": 77,
+    "reference": "Jaideva Singh canonical 77-sutra text; Osho discourses (Shiv Sutra, Pune 1974)"
+  },
+  "chapters": [
+    {
+      "id": 1,
+      "name": "शाम्भवोपाय",
+      "nameEn": "Shambhavopaya",
+      "subtitle": "The Way of Shiva — Pure Will",
+      "range": [1, 22]
+    },
+    {
+      "id": 2,
+      "name": "शाक्तोपाय",
+      "nameEn": "Shaktopaya",
+      "subtitle": "The Way of Shakti — Pure Knowledge",
+      "range": [23, 32]
+    },
+    {
+      "id": 3,
+      "name": "आणवोपाय",
+      "nameEn": "Anavopaya",
+      "subtitle": "The Way of the Individual — Effort & Practice",
+      "range": [33, 77]
+    }
+  ],
+  "sutras": [
+    {
+      "id": 1,
+      "chapter": 1,
+      "sanskrit": "चैतन्यमात्मा",
+      "hindi": "चेतना ही आत्मा है।",
+      "english": "Consciousness is the Self.",
+      "osho_hindi": "ओशो कहते हैं — यह पहला सूत्र सब कुछ कह देता है। तुम चेतना हो — शरीर नहीं, मन नहीं, विचार नहीं। जो जानता है, जो देखता है, जो साक्षी है — वही तुम हो। जैसे दीये की रोशनी दीये से अलग नहीं, वैसे ही चेतना और आत्मा एक हैं।",
+      "osho_english": "Osho says — This first sutra says everything. You are consciousness — not the body, not the mind, not the thoughts. That which knows, that which sees, that which witnesses — that is you. As light cannot be separated from the lamp, so consciousness and the Self are one."
+    },
+    {
+      "id": 2,
+      "chapter": 1,
+      "sanskrit": "ज्ञानं बन्धः",
+      "hindi": "अज्ञान (सीमित ज्ञान) ही बंधन है।",
+      "english": "Ignorance — contracted knowledge — is bondage.",
+      "osho_hindi": "ओशो कहते हैं — जो ज्ञान तुम्हें तुमसे अलग करे, जो ज्ञान 'मैं' और 'तू' का भेद बनाए — वही बंधन है। असली ज्ञान तो मुक्ति है। जो ज्ञान तुम्हें परमात्मा से अलग बताए — वह अज्ञान है, चाहे कितना भी बड़ा पंडित हो।",
+      "osho_english": "Osho says — Knowledge that separates you from yourself, that creates the division of 'I' and 'other' — that is bondage. True knowledge is liberation. Any knowledge that tells you that you are separate from the Divine is ignorance, no matter how learned the one who claims it."
+    },
+    {
+      "id": 3,
+      "chapter": 1,
+      "sanskrit": "योनिवर्गः कलाशरीरम्",
+      "hindi": "माया की शक्ति-वर्गों से ही सीमित शरीर बना है।",
+      "english": "The world of womb-born forms — the powers of Maya — constitute the body of the limited self.",
+      "osho_hindi": "ओशो कहते हैं — जब तक तुम स्वयं को इस भौतिक शरीर से जोड़ते हो, तब तक माया में हो। यह शरीर तुम्हारा घर है, तुम नहीं। साक्षी बनो — शरीर में रहो पर शरीर मत बनो।",
+      "osho_english": "Osho says — As long as you identify with the physical body, you are in Maya. This body is your home, not you. Become the witness — live in the body, but do not become the body."
+    },
+    {
+      "id": 4,
+      "chapter": 1,
+      "sanskrit": "ज्ञानाधिष्ठानं मातृका",
+      "hindi": "मातृका (वर्ण-शक्ति) ज्ञान का आधार है।",
+      "english": "The Matrika — the matrix of letters and sounds — is the foundation of all knowledge.",
+      "osho_hindi": "ओशो कहते हैं — शब्द में बड़ी शक्ति है। लेकिन शब्द के पार भी जाना है। मंत्र शब्द का उपयोग करता है ताकि शब्द के पार ले जाए — जहाँ केवल चेतना है, कोई शब्द नहीं। मातृका अंधकार की जड़ भी है और प्रकाश का द्वार भी।",
+      "osho_english": "Osho says — Words carry great power. But you must also go beyond words. Mantra uses sound to carry you beyond sound — to where only consciousness remains. Matrika is both the root of ignorance and the gateway to light."
+    },
+    {
+      "id": 5,
+      "chapter": 1,
+      "sanskrit": "उद्यमो भैरवः",
+      "hindi": "परम उत्साहपूर्ण स्फुरण ही भैरव है।",
+      "english": "The sudden upwelling of energy — the primordial dynamism of awareness — is Bhairava.",
+      "osho_hindi": "ओशो कहते हैं — जब तुम्हारे भीतर अचानक जागृति का विस्फोट हो, जब ऊर्जा का एक झरना फूटे — यही भैरव है। यह कोई बाहर का देवता नहीं, यह तुम्हारी चेतना की परम अवस्था है। इसके लिए तैयार रहो, खुले रहो।",
+      "osho_english": "Osho says — When a sudden explosion of awakening happens within you, when a fountain of energy bursts forth — that is Bhairava. This is not an external deity, this is the supreme state of your own consciousness. Stay ready for it, stay open."
+    },
+    {
+      "id": 6,
+      "chapter": 1,
+      "sanskrit": "शक्तिचक्रसन्धाने विश्वसंहारः",
+      "hindi": "शक्तिचक्रों के संधान से विश्व का संहार (विलय) हो जाता है।",
+      "english": "By union with the wheel of Shakti powers, the appearance of the universe is dissolved.",
+      "osho_hindi": "ओशो कहते हैं — जब सभी शक्तियाँ एक केंद्र पर आ जाती हैं, तो बाहर का संसार गायब हो जाता है। यह विनाश नहीं, विलय है — जैसे नदी सागर में मिले। तब साधक केवल चेतना में रहता है।",
+      "osho_english": "Osho says — When all energies converge at one center, the outer world dissolves. This is not destruction but absorption — like a river merging into the ocean. The seeker then abides in pure consciousness alone."
+    },
+    {
+      "id": 7,
+      "chapter": 1,
+      "sanskrit": "जाग्रत्स्वप्नसुषुप्तभेदे तुर्याभोगसम्भवः",
+      "hindi": "जाग्रत, स्वप्न और सुषुप्ति की तीनों अवस्थाओं में तुरीय का अनुभव संभव है।",
+      "english": "Beyond the distinction of waking, dreaming, and deep sleep — there the experience of the fourth state arises.",
+      "osho_hindi": "ओशो कहते हैं — तीनों अवस्थाएँ आती-जाती रहती हैं, लेकिन उनका साक्षी हमेशा रहता है — वही चौथी अवस्था है, तुरीय। उसे खोजने कहीं जाना नहीं, बस इन तीनों को देखते रहो।",
+      "osho_english": "Osho says — The three states come and go, but the witness who watches them always remains — that is the fourth state, turiya. You need not go anywhere to find it; just keep watching the three states."
+    },
+    {
+      "id": 8,
+      "chapter": 1,
+      "sanskrit": "ज्ञानं जाग्रत्",
+      "hindi": "ज्ञान (बाह्य इंद्रिय-ज्ञान) जाग्रत अवस्था है।",
+      "english": "Ordinary sensory knowledge is the waking state.",
+      "osho_hindi": "ओशो कहते हैं — जागते हुए भी हम वास्तव में सोए होते हैं। जिसे हम जाग्रत अवस्था कहते हैं वह वास्तव में इंद्रियों का सपना है। असली जागृति तो तब है जब साक्षी जागे।",
+      "osho_english": "Osho says — Even while awake, we are essentially asleep. What we call the waking state is truly the dream of the senses. Real awakening is when the witness itself awakens."
+    },
+    {
+      "id": 9,
+      "chapter": 1,
+      "sanskrit": "स्वप्नो विकल्पाः",
+      "hindi": "स्वप्न विकल्पों (मनोकल्पनाओं) की लीला है।",
+      "english": "Dreaming is the play of mental constructs and imagination.",
+      "osho_hindi": "ओशो कहते हैं — स्वप्न में मन अपना खेल खेलता है। जाग्रत में भी मन ऐसा ही करता है, थोड़ा और सूक्ष्म तरीके से। जब तक मन है, तब तक विकल्प हैं। ध्यान इन दोनों का अंत है।",
+      "osho_english": "Osho says — In dream, the mind plays its own game. It does the same in waking too, only more subtly. As long as the mind exists, so do mental constructs. Meditation is the end of both."
+    },
+    {
+      "id": 10,
+      "chapter": 1,
+      "sanskrit": "अविवेको मायासौषुप्तम्",
+      "hindi": "अविवेक (भेद न कर पाना) माया-जनित गहरी निद्रा है।",
+      "english": "Non-discernment — the inability to distinguish Self from non-Self — is the deep sleep of Maya.",
+      "osho_hindi": "ओशो कहते हैं — सबसे गहरी नींद वह है जब हम नहीं जानते कि हम नहीं जानते। माया की असली ताकत यही है। जागने की पहली शर्त है — यह स्वीकारना कि मैं अभी सोया हूँ।",
+      "osho_english": "Osho says — The deepest sleep is when we don't know that we don't know. This is Maya's real power. The first condition of awakening is to acknowledge: I am still asleep."
+    },
+    {
+      "id": 11,
+      "chapter": 1,
+      "sanskrit": "त्रितयभोक्ता वीरेशः",
+      "hindi": "तीनों अवस्थाओं का भोक्ता ही वीरों का स्वामी है।",
+      "english": "The enjoyer of the three states is the lord of heroes — the true master.",
+      "osho_hindi": "ओशो कहते हैं — जो इन तीनों अवस्थाओं — जाग्रत, स्वप्न, सुषुप्ति — का उपभोक्ता है और फिर भी इनसे अलग है, वही असली वीर है। बाहर की वीरता कुछ नहीं, भीतर का साक्षी ही असली योद्धा है।",
+      "osho_english": "Osho says — The one who enjoys all three states — waking, dreaming, deep sleep — and yet remains apart from them, that one is the true hero. Outer bravery is nothing; the inner witness is the real warrior."
+    },
+    {
+      "id": 12,
+      "chapter": 1,
+      "sanskrit": "विस्मयो योगभूमिकाः",
+      "hindi": "विस्मय (अचंभा) ही योग की भूमि है।",
+      "english": "Wonder is the very ground of yoga.",
+      "osho_hindi": "ओशो कहते हैं — जो चकित हो सकता है, वही जान सकता है। जो सोचता है कि सब जानता है, उसके लिए द्वार बंद हो जाते हैं। बच्चे का वह भाव जब पहली बार फूल देखे — वही योग की शुरुआत है।",
+      "osho_english": "Osho says — One who can be amazed is the one who can know. For one who thinks he knows everything, all doors close. That childlike sense of wonder when seeing a flower for the first time — that is the beginning of yoga."
+    },
+    {
+      "id": 13,
+      "chapter": 1,
+      "sanskrit": "इच्छाशक्तिरुमा कुमारी",
+      "hindi": "इच्छाशक्ति उमा (कुमारी) है — शुद्ध, कुंवारी ऊर्जा।",
+      "english": "The power of will is Uma — the ever-pure, ever-virgin cosmic energy.",
+      "osho_hindi": "ओशो कहते हैं — असली इच्छा वह नहीं जो वस्तुओं को माँगे। असली इच्छा वह है जो परमात्मा को माँगे — जो कुंवारी है, जो शुद्ध है। उमा वही शक्ति है जो शिव की ओर चलती है।",
+      "osho_english": "Osho says — True desire is not the kind that seeks objects. True desire is the kind that seeks the Divine — that which is pure, virgin. Uma is that very energy which moves toward Shiva."
+    },
+    {
+      "id": 14,
+      "chapter": 1,
+      "sanskrit": "दृश्यं शरीरम्",
+      "hindi": "जो दिखता है (समस्त दृश्य जगत्) वही शरीर है।",
+      "english": "Whatever is perceived — the entire visible universe — is body.",
+      "osho_hindi": "ओशो कहते हैं — यह जगत् केवल बाहर नहीं है — यह तुम्हारा विस्तृत शरीर है। जब तक तुम इसे 'दूसरा' मानते हो, तब तक भटकते हो। जब यह तुम्हारा अपना शरीर हो जाए — तब प्रेम फूट पड़ता है।",
+      "osho_english": "Osho says — This world is not only outside you — it is your extended body. As long as you regard it as 'other', you wander. When it becomes your own body — then love bursts forth."
+    },
+    {
+      "id": 15,
+      "chapter": 1,
+      "sanskrit": "हृदये चित्तसंघट्टाद् दृश्यस्वापदर्शनम्",
+      "hindi": "हृदय में चित्त को एकाग्र करने से दृश्य जगत् स्वप्न जैसा (शून्य) दिखने लगता है।",
+      "english": "By focusing the mind in the heart, one sees the visible world as a dream — perceivable emptiness.",
+      "osho_hindi": "ओशो कहते हैं — जब मन हृदय में उतरता है, तो दुनिया का ठोसपन खो जाता है। सब कुछ स्वप्नवत् हो जाता है। यह विरक्ति नहीं है — यह एक नई दृष्टि है जिसमें सब कुछ चेतना का खेल दिखता है।",
+      "osho_english": "Osho says — When the mind descends into the heart, the solidity of the world dissolves. Everything becomes dream-like. This is not detachment — it is a new vision in which everything is seen as the play of consciousness."
+    },
+    {
+      "id": 16,
+      "chapter": 1,
+      "sanskrit": "शुद्धतत्त्वसन्धानाद् वा अपशुशक्तिः",
+      "hindi": "शुद्ध तत्त्व के संधान से पशु (जीव) की शक्ति का विलय हो जाता है।",
+      "english": "Or by contemplating the pure principle, the power that binds the individual soul is dissolved.",
+      "osho_hindi": "ओशो कहते हैं — शुद्ध तत्त्व यानी शिव-चेतना। जब उसमें ध्यान टिके, तो जो बंधन था — पशुत्व — वह गल जाता है। तुम पशु से देवता नहीं बनते — तुम जानते हो कि तुम देवता ही थे।",
+      "osho_english": "Osho says — Pure principle means Shiva-consciousness. When meditation rests in that, the bondage — the animal nature — melts away. You do not become divine from animal — you realize you were always divine."
+    },
+    {
+      "id": 17,
+      "chapter": 1,
+      "sanskrit": "वितर्क आत्मज्ञानम्",
+      "hindi": "सम्यक विचार (विवेकपूर्ण तर्क) आत्मज्ञान है।",
+      "english": "Right discernment — pure intuitive reasoning — is the knowledge of the Self.",
+      "osho_hindi": "ओशो कहते हैं — यह तर्क वह नहीं जो बाजारू बुद्धि करती है। यह विचार वह है जो भीतर की ओर मुड़ता है। जब बुद्धि स्वयं को ही जानने की कोशिश करे — वही वितर्क है।",
+      "osho_english": "Osho says — This is not the reasoning of the marketplace. This thinking is the kind that turns inward. When intellect tries to know itself — that is vitarka, true discernment."
+    },
+    {
+      "id": 18,
+      "chapter": 1,
+      "sanskrit": "लोकानन्दः समाधिसुखम्",
+      "hindi": "जगत् का आनंद ही समाधि का सुख है।",
+      "english": "The bliss experienced in the world is a reflection of the joy of samadhi.",
+      "osho_hindi": "ओशो कहते हैं — तुम जो थोड़ा-सा आनंद कहीं से पाते हो — फूल में, संगीत में, प्रेम में — वह समाधि की झलक है। जीवन में जो सुंदर है वह परमात्मा की खिड़की है। इसे तुच्छ मत जानो।",
+      "osho_english": "Osho says — The little joy you find somewhere — in a flower, in music, in love — that is a glimpse of samadhi. Whatever is beautiful in life is a window to the Divine. Do not consider it trivial."
+    },
+    {
+      "id": 19,
+      "chapter": 1,
+      "sanskrit": "शक्तिसन्धाने शरीरोत्पत्तिः",
+      "hindi": "शक्ति के संधान से (नई) सृष्टि और शरीर की उत्पत्ति होती है।",
+      "english": "By the union of Shakti, bodies and worlds come into being.",
+      "osho_hindi": "ओशो कहते हैं — शक्ति संधान यानी शक्ति का एकत्रित होना। जहाँ शक्ति इकट्ठी होती है, वहाँ से सृजन होता है। यही सृष्टि का रहस्य है — और यही योग की शक्ति भी।",
+      "osho_english": "Osho says — Shakti union means the gathering of energy. Wherever energy gathers, creation happens. This is the mystery of creation — and this is also the power of yoga."
+    },
+    {
+      "id": 20,
+      "chapter": 1,
+      "sanskrit": "भूतसन्धानभूतपृथक्त्वविश्वसंघट्टाः",
+      "hindi": "तत्त्वों का संघ, उनका विभाजन और पुनः विश्व का संघ — यही सृष्टि का क्रम है।",
+      "english": "The union of elements, their separation, and the gathering of the universe — these are the three movements of creation.",
+      "osho_hindi": "ओशो कहते हैं — सृष्टि सांस लेती है — मिलती है, बिखरती है, फिर मिलती है। जैसे श्वास — श्वास भीतर, श्वास बाहर। यही शिव का नृत्य है। साधक इस नृत्य में सम्मिलित हो जाए।",
+      "osho_english": "Osho says — Creation breathes — it unites, scatters, unites again. Like the breath — in and out. This is the dance of Shiva. The seeker must join this dance."
+    },
+    {
+      "id": 21,
+      "chapter": 1,
+      "sanskrit": "शुद्धविद्योदयाच्चक्रेशत्वसिद्धिः",
+      "hindi": "शुद्ध विद्या के उदय से चक्रों के ईश (मालिक) की सिद्धि होती है।",
+      "english": "With the rise of pure knowledge, mastery over the wheel of energies is attained.",
+      "osho_hindi": "ओशो कहते हैं — शुद्ध विद्या वह है जिसमें कर्ता भाव नहीं है — केवल साक्षित्व है। जब वह उगती है, तब सभी शक्तियाँ साधक के वश में हो जाती हैं — बाहर की नहीं, भीतर की।",
+      "osho_english": "Osho says — Pure knowledge is that in which there is no doer — only witnessing. When it rises, all energies come under the seeker's mastery — not outer ones, but inner ones."
+    },
+    {
+      "id": 22,
+      "chapter": 1,
+      "sanskrit": "महाह्रदानुसन्धानान्मन्त्रवीर्यानुभवः",
+      "hindi": "महाह्रद (परम चेतना-सरोवर) के अनुसन्धान से मन्त्र के वीर्य का अनुभव होता है।",
+      "english": "By contemplating the great lake of consciousness, the virility and power of mantra is experienced.",
+      "osho_hindi": "ओशो कहते हैं — महाह्रद वह विशाल चेतना-सरोवर है जो तुम्हारे भीतर है। उसमें उतरो। तब मंत्र केवल शब्द नहीं रहता — वह जीवित हो उठता है, उसकी शक्ति प्रकट होती है।",
+      "osho_english": "Osho says — The great lake is the vast reservoir of consciousness within you. Dive into it. Then mantra is no longer just a word — it comes alive, its power manifests."
+    },
+    {
+      "id": 23,
+      "chapter": 2,
+      "sanskrit": "चित्तं मन्त्रः",
+      "hindi": "चित्त ही मन्त्र है।",
+      "english": "The mind itself — in its awakened state — is mantra.",
+      "osho_hindi": "ओशो कहते हैं — जब चित्त शुद्ध हो जाए, जब उसमें विचार न हों बल्कि केवल चेतना हो — तब वह मंत्र बन जाता है। शुद्ध मन स्वयं ही परम ध्वनि है।",
+      "osho_english": "Osho says — When the mind becomes pure, when it holds not thoughts but only consciousness — it itself becomes mantra. The pure mind is itself the ultimate sound."
+    },
+    {
+      "id": 24,
+      "chapter": 2,
+      "sanskrit": "प्रयत्नः साधकः",
+      "hindi": "प्रयत्न ही साधक है।",
+      "english": "Effort — sincere, total effort — is the seeker.",
+      "osho_hindi": "ओशो कहते हैं — प्रयत्न को तुम मत करो, तुम प्रयत्न बन जाओ। आधे-अधूरे प्रयत्न से कुछ नहीं मिलता। जब पूरा अस्तित्व ही खोज में लग जाए — तब साधक तैयार होता है।",
+      "osho_english": "Osho says — Do not do effort, become effort. Half-hearted effort yields nothing. When your entire being is devoted to seeking — then the seeker is truly ready."
+    },
+    {
+      "id": 25,
+      "chapter": 2,
+      "sanskrit": "विद्याशरीरसत्ता मन्त्ररहस्यम्",
+      "hindi": "विद्या-शरीर की सत्ता ही मन्त्र का रहस्य है।",
+      "english": "The existence of the knowledge-body is the secret of mantra.",
+      "osho_hindi": "ओशो कहते हैं — मंत्र केवल शब्द नहीं है — वह एक जीवित सत्ता है। जब साधक मंत्र में इतना डूब जाए कि मंत्र उसका शरीर बन जाए — तब मंत्र का रहस्य खुलता है।",
+      "osho_english": "Osho says — Mantra is not merely a word — it is a living entity. When the seeker is so immersed in mantra that mantra becomes their body — then the secret of mantra is revealed."
+    },
+    {
+      "id": 26,
+      "chapter": 2,
+      "sanskrit": "गर्भे चित्तविकासोऽविशिष्टविद्यास्वप्नः",
+      "hindi": "गर्भावस्था में चित्त का विकास अविशिष्ट (सामान्य) विद्या का स्वप्न है।",
+      "english": "The expansion of the mind in the womb is the dream of undifferentiated knowledge.",
+      "osho_hindi": "ओशो कहते हैं — जन्म से पहले, गर्भ में, चित्त अपना जाल बुनता है। वहीं से अज्ञान की शुरुआत होती है। ध्यान उस गाँठ को खोलता है जो जन्म से पहले बँध गई थी।",
+      "osho_english": "Osho says — Before birth, in the womb, the mind weaves its web. Ignorance begins right there. Meditation untangles the knot that was tied even before birth."
+    },
+    {
+      "id": 27,
+      "chapter": 2,
+      "sanskrit": "विद्यासमुत्थाने स्वाभाविके खेचरी शिवावस्था",
+      "hindi": "स्वाभाविक विद्या के उदय पर खेचरी शिव-अवस्था प्राप्त होती है।",
+      "english": "When knowledge arises naturally, one moves freely in the sky of consciousness — the state of Shiva.",
+      "osho_hindi": "ओशो कहते हैं — खेचरी माने आकाश में विचरण। जब ज्ञान स्वाभाविक हो जाए — जब तुम्हें जानने की कोशिश न करनी पड़े — तब तुम शिव की अवस्था में हो। उड़ते हो, पर बिना पंखों के।",
+      "osho_english": "Osho says — Khechara means moving in the sky. When knowledge becomes natural — when you no longer need to try to know — then you are in the state of Shiva. You fly, but without wings."
+    },
+    {
+      "id": 28,
+      "chapter": 2,
+      "sanskrit": "गुरुरुपायः",
+      "hindi": "गुरु ही उपाय है।",
+      "english": "The Guru is the means.",
+      "osho_hindi": "ओशो कहते हैं — गुरु कोई बाहरी व्यक्ति नहीं है। गुरु वह शक्ति है जो तुम्हें तुमसे मिलाती है। हाँ, कभी-कभी वह शक्ति किसी इंसान में प्रकट होती है। पर असली गुरु तो तुम्हारे भीतर का प्रकाश है।",
+      "osho_english": "Osho says — The Guru is not an external person. The Guru is the force that reconnects you to yourself. Yes, sometimes that force manifests through a person. But the real Guru is the light within you."
+    },
+    {
+      "id": 29,
+      "chapter": 2,
+      "sanskrit": "मातृकाचक्रसम्बोधः",
+      "hindi": "मातृकाचक्र का जागरण (संबोध) होता है।",
+      "english": "The awakening of the wheel of Matrika — the matrix of all language and knowledge.",
+      "osho_hindi": "ओशो कहते हैं — जब साधक भाषा के जाल को समझ लेता है — जब शब्दों की शक्ति और सीमा दोनों दिखती हैं — तभी वह मातृकाचक्र का जागरण है। भाषा से मुक्ति, भाषा के ही रास्ते से।",
+      "osho_english": "Osho says — When the seeker understands the web of language — when both the power and the limitation of words become visible — that is the awakening of the Matrika chakra. Freedom from language, through language itself."
+    },
+    {
+      "id": 30,
+      "chapter": 2,
+      "sanskrit": "शरीरं हविः",
+      "hindi": "शरीर ही आहुति (हवि) है।",
+      "english": "The body itself is the oblation offered in the fire of sadhana.",
+      "osho_hindi": "ओशो कहते हैं — साधना में शरीर को कष्ट देना नहीं है — शरीर को समर्पित करना है। जब पूरा शरीर परमात्मा की सेवा में लग जाए — हर साँस, हर क्रिया — तब वह हवि बन जाता है।",
+      "osho_english": "Osho says — Sadhana is not about tormenting the body — it is about offering the body. When the entire body is devoted to the Divine — every breath, every action — then it becomes the oblation."
+    },
+    {
+      "id": 31,
+      "chapter": 2,
+      "sanskrit": "ज्ञानमन्नम्",
+      "hindi": "ज्ञान ही भोजन है।",
+      "english": "Knowledge is the food of the awakened one.",
+      "osho_hindi": "ओशो कहते हैं — जब चेतना जाग जाती है, तो वह ज्ञान को भोजन की तरह खाती है। हर अनुभव, हर दर्शन उसका पोषण है। ऐसा साधक कभी क्षुधित नहीं रहता।",
+      "osho_english": "Osho says — When consciousness is awakened, it eats knowledge like food. Every experience, every perception nourishes it. Such a seeker is never spiritually hungry."
+    },
+    {
+      "id": 32,
+      "chapter": 2,
+      "sanskrit": "विद्यासंहारे तदुत्थस्वप्नदर्शनम्",
+      "hindi": "विद्या के संहार (विघटन) पर तदुत्थ (उससे जन्मा) स्वप्न-दर्शन होता है।",
+      "english": "When limited knowledge dissolves, the vision arising from it — like a dream — becomes visible.",
+      "osho_hindi": "ओशो कहते हैं — जब सीमित ज्ञान गिरता है, तो देखते हो कि तुमने जो संसार बनाया था वह एक स्वप्न था। यह दुखद नहीं है — यह मुक्ति का पहला क्षण है।",
+      "osho_english": "Osho says — When limited knowledge falls away, you see that the world you had constructed was a dream. This is not sorrowful — it is the first moment of liberation."
+    },
+    {
+      "id": 33,
+      "chapter": 3,
+      "sanskrit": "आत्मा चित्तम्",
+      "hindi": "आत्मा ही चित्त है।",
+      "english": "The Self becomes the mind — identifies itself as mind in the individual.",
+      "osho_hindi": "ओशो कहते हैं — जब परम चेतना सिकुड़ती है, तो वह चित्त बन जाती है। जैसे विशाल आकाश एक घड़े में बंद हो जाए। साधना उस घड़े को तोड़ना है — ताकि आकाश फिर आकाश हो।",
+      "osho_english": "Osho says — When supreme consciousness contracts, it becomes the individual mind. Like the vast sky being confined to a pot. Sadhana is breaking that pot — so the sky becomes sky again."
+    },
+    {
+      "id": 34,
+      "chapter": 3,
+      "sanskrit": "ज्ञानं बन्धः",
+      "hindi": "सीमित ज्ञान बंधन है।",
+      "english": "Limited, contracted knowledge is bondage.",
+      "osho_hindi": "ओशो कहते हैं — दूसरे अध्याय में भी यही सूत्र था। शिव दोहराते हैं — यह भूलना नहीं चाहिए। जो जानने का अहंकार लाता है — चाहे विज्ञान हो, धर्म हो — वह बंधन है।",
+      "osho_english": "Osho says — The same sutra appeared in Chapter Two. Shiva repeats — this must not be forgotten. Any knowledge that breeds the ego of the knower — whether science or religion — is bondage."
+    },
+    {
+      "id": 35,
+      "chapter": 3,
+      "sanskrit": "कलादीनां तत्त्वानामविवेको माया",
+      "hindi": "कला आदि तत्त्वों में अविवेक (भेद न देख पाना) ही माया है।",
+      "english": "Inability to discern among the principles beginning with Kala is Maya.",
+      "osho_hindi": "ओशो कहते हैं — माया कोई बाहरी जादू नहीं है। माया अपनी ही आँखों का धोखा है। जब हम देख नहीं पाते कि क्या असली है और क्या नकली — तभी माया है।",
+      "osho_english": "Osho says — Maya is not some external magic. Maya is the deception of one's own eyes. When we cannot see what is real and what is not — that is Maya."
+    },
+    {
+      "id": 36,
+      "chapter": 3,
+      "sanskrit": "शरीरे संहारः कलानाम्",
+      "hindi": "शरीर में कलाओं (सीमित शक्तियों) का संहार होता है।",
+      "english": "In the body, the limited powers — the kalas — are dissolved.",
+      "osho_hindi": "ओशो कहते हैं — शरीर ही वह भट्टी है जिसमें कला-बंधन जलते हैं। भागो नहीं शरीर से — इसी में जलाओ। समाधि देह छोड़ने से नहीं, देह में रहकर देह के पार जाने से मिलती है।",
+      "osho_english": "Osho says — The body itself is the furnace in which the bondage of kalas burns away. Do not flee the body — burn within it. Samadhi is not found by leaving the body, but by transcending it while remaining in it."
+    },
+    {
+      "id": 37,
+      "chapter": 3,
+      "sanskrit": "नाडीसंहारभूतजयभूतकैवल्यभूतपृथक्त्वानि",
+      "hindi": "नाड़ी-संहार, भूत-जय, भूत-कैवल्य और भूत-पृथक्त्व — ये योग की सिद्धियाँ हैं।",
+      "english": "The quieting of nadis, mastery over elements, detachment from elements, separation from elements — these are the attainments.",
+      "osho_hindi": "ओशो कहते हैं — ये सिद्धियाँ लक्ष्य नहीं हैं, मार्ग के संकेत हैं। जो इन्हें लक्ष्य मान ले, वह भटक जाता है। ये आती हैं चुपचाप — इन्हें माँगो नहीं।",
+      "osho_english": "Osho says — These powers are not the goal, they are signposts along the way. One who takes them as the goal gets lost. They come silently — do not seek them."
+    },
+    {
+      "id": 38,
+      "chapter": 3,
+      "sanskrit": "मोहावरणात्सिद्ध्यन्तर्धानम्",
+      "hindi": "मोह के आवरण से सिद्धियाँ छिप जाती हैं।",
+      "english": "By the veil of delusion, attained powers disappear.",
+      "osho_hindi": "ओशो कहते हैं — मोह सबसे बड़ा पर्दा है। सिद्धियाँ भी उसमें खो जाती हैं। इसलिए सिद्धि से भी ज्यादा जरूरी है मोह का नाश। मोहमुक्त चेतना में ही सब कुछ टिकता है।",
+      "osho_english": "Osho says — Delusion is the greatest veil. Even attainments disappear within it. Therefore, liberation from delusion is more important than any attainment. Only in a mind free of delusion does everything truly remain."
+    },
+    {
+      "id": 39,
+      "chapter": 3,
+      "sanskrit": "मोहजयादनन्ताभोगात्सहजविद्याजयः",
+      "hindi": "मोह पर विजय और अनंत अनुभव से सहज विद्या पर विजय मिलती है।",
+      "english": "By victory over delusion and by boundless expansion of experience, innate knowledge is mastered.",
+      "osho_hindi": "ओशो कहते हैं — सहज विद्या किसी किताब में नहीं मिलती। वह तब मिलती है जब मोह गिर जाता है और अनुभव का विस्तार अनंत हो जाता है। बस होने दो — करने की नहीं, होने की जरूरत है।",
+      "osho_english": "Osho says — Innate knowledge is not found in any book. It is found when delusion falls away and the expanse of experience becomes infinite. Just let it be — not doing is needed, but being."
+    },
+    {
+      "id": 40,
+      "chapter": 3,
+      "sanskrit": "जाग्रद्द्वितीयकरः",
+      "hindi": "जाग्रत अवस्था में द्वितीय किरण (द्वैत-भाव) उत्पन्न होती है।",
+      "english": "In the waking state, the second ray of consciousness — the sense of duality — arises.",
+      "osho_hindi": "ओशो कहते हैं — जागते हुए हम दो हो जाते हैं — देखने वाला और दिखने वाला। यही द्वैत की शुरुआत है। योग इस दूसरी किरण को वापस मूल में मिलाना है।",
+      "osho_english": "Osho says — While waking, we become two — the seer and the seen. This is the beginning of duality. Yoga is merging this second ray back into its source."
+    },
+    {
+      "id": 41,
+      "chapter": 3,
+      "sanskrit": "नर्तक आत्मा",
+      "hindi": "आत्मा नर्तक है।",
+      "english": "The Self is the dancer.",
+      "osho_hindi": "ओशो कहते हैं — नटराज का यही अर्थ है। आत्मा नाचती है — सृष्टि, स्थिति, संहार — सब उसका नृत्य है। जो यह जान ले, वह नृत्य में भी शांत है, संकट में भी आनंदित है।",
+      "osho_english": "Osho says — This is the meaning of Nataraja. The Self dances — creation, maintenance, dissolution — all are its dance. One who knows this remains still in dancing, joyful in crisis."
+    },
+    {
+      "id": 42,
+      "chapter": 3,
+      "sanskrit": "रङ्गोऽन्तरात्मा",
+      "hindi": "अंतरात्मा ही रंगमंच है।",
+      "english": "The inner Self is the stage upon which the dance of life is performed.",
+      "osho_hindi": "ओशो कहते हैं — यह जगत् बाहर की रंगशाला नहीं है — यह तुम्हारे भीतर खेला जा रहा नाटक है। स्वप्न में भी सारी दुनिया तुम्हारे भीतर होती है। जागने पर भी यही सच है।",
+      "osho_english": "Osho says — This world is not an external theater — it is a play being performed inside you. Even in dreams, the entire world is within you. This is true even when awake."
+    },
+    {
+      "id": 43,
+      "chapter": 3,
+      "sanskrit": "प्रेक्षकाणीन्द्रियाणि",
+      "hindi": "इंद्रियाँ दर्शक हैं।",
+      "english": "The senses are the spectators.",
+      "osho_hindi": "ओशो कहते हैं — इंद्रियाँ नाटक देख रही हैं — वे खेल नहीं रहीं। जब तुम इंद्रियों के साथ तादात्म्य तोड़ दो — जब तुम भी केवल दर्शक बन जाओ — तब मुक्ति है।",
+      "osho_english": "Osho says — The senses are watching the play — they are not acting in it. When you break your identification with the senses — when you too become only a witness — that is liberation."
+    },
+    {
+      "id": 44,
+      "chapter": 3,
+      "sanskrit": "धीवशात्सत्त्वसिद्धिः",
+      "hindi": "बुद्धि के वश से सत्त्व की सिद्धि होती है।",
+      "english": "Through the power of the awakened intellect, the state of pure sattva is attained.",
+      "osho_hindi": "ओशो कहते हैं — बुद्धि जब शुद्ध हो, जब वह राग-द्वेष से मुक्त हो — तब वह सत्त्व को जन्म देती है। सात्विक बुद्धि परमात्मा का दर्पण है।",
+      "osho_english": "Osho says — When the intellect is pure, free from attachment and aversion — then it gives birth to sattva. The sattvic intellect is a mirror of the Divine."
+    },
+    {
+      "id": 45,
+      "chapter": 3,
+      "sanskrit": "सिद्धः स्वतन्त्रभावः",
+      "hindi": "सिद्ध (योगी) का स्वभाव स्वतंत्र होता है।",
+      "english": "The perfected one has an absolutely free and independent nature.",
+      "osho_hindi": "ओशो कहते हैं — स्वतंत्रता का अर्थ है — कोई भी नियम थोपा नहीं। न बाहर का, न भीतर का। सिद्ध अपने ही स्वभाव से चलता है — जो शिव का स्वभाव है।",
+      "osho_english": "Osho says — Freedom means — no rule is imposed. Neither outer nor inner. The siddha moves by his own nature — which is the nature of Shiva."
+    },
+    {
+      "id": 46,
+      "chapter": 3,
+      "sanskrit": "यथा तत्र तथान्यत्र",
+      "hindi": "जैसा वहाँ, वैसा ही अन्यत्र — जो भीतर, वही बाहर।",
+      "english": "As it is there in samadhi, so it is elsewhere — the within mirrors the without.",
+      "osho_hindi": "ओशो कहते हैं — समाधि में जो अनुभव होता है, वही जाग्रत में भी होना चाहिए। जो ध्यान में मिलता है, वह बाजार में भी न छूटे। यही परिपक्वता है।",
+      "osho_english": "Osho says — What is experienced in samadhi must also remain in the waking state. What is found in meditation must not be lost in the marketplace. This is true ripening."
+    },
+    {
+      "id": 47,
+      "chapter": 3,
+      "sanskrit": "बीजावधानम्",
+      "hindi": "बीज (मूल शक्ति) पर अवधान (ध्यान) दो।",
+      "english": "Give total, undivided attention to the seed — the source energy.",
+      "osho_hindi": "ओशो कहते हैं — बीज पर ध्यान दो — वह जो मूल है, जो पहला है। न फल पर ध्यान दो, न शाखा पर — जड़ पर जाओ। वह जड़ तुम्हारी चेतना ही है।",
+      "osho_english": "Osho says — Give attention to the seed — that which is the origin, which is first. Do not focus on the fruit or the branch — go to the root. That root is your consciousness itself."
+    },
+    {
+      "id": 48,
+      "chapter": 3,
+      "sanskrit": "आसनस्थः सुखं ह्रदे निमज्जति",
+      "hindi": "आसनस्थ (स्थिर बैठा) साधक सुखपूर्वक हृदय के सरोवर में निमज्जित होता है।",
+      "english": "Seated in stillness, one dives blissfully into the lake of the heart.",
+      "osho_hindi": "ओशो कहते हैं — आसन का अर्थ केवल शरीर की स्थिति नहीं है। जब मन भी बैठ जाए, जब विचार रुक जाएँ — तब असली आसन होता है। और तब हृदय के सरोवर में डुबकी लगती है।",
+      "osho_english": "Osho says — Asana is not merely a body posture. When the mind also sits still, when thoughts stop — then real asana occurs. And then comes the dive into the lake of the heart."
+    },
+    {
+      "id": 49,
+      "chapter": 3,
+      "sanskrit": "स्वमात्रा निर्माणमापादयति",
+      "hindi": "वह (योगी) अपनी मात्रा (चेतना की सीमा) से सृष्टि करता है।",
+      "english": "The yogi creates and fashions by the measure of his own consciousness.",
+      "osho_hindi": "ओशो कहते हैं — जैसी तुम्हारी चेतना है, वैसी ही तुम्हारी दुनिया है। सिद्ध योगी अपनी शुद्ध चेतना से एक नई सृष्टि रचता है। बदलना हो दुनिया को — तो पहले चेतना बदलो।",
+      "osho_english": "Osho says — The world you inhabit is as vast as your consciousness. The realized yogi creates a new world from pure consciousness. If you want to change the world — first change consciousness."
+    },
+    {
+      "id": 50,
+      "chapter": 3,
+      "sanskrit": "विद्याविनाशे जन्मविनाशः",
+      "hindi": "सीमित विद्या के विनाश पर जन्म-मृत्यु का विनाश होता है।",
+      "english": "When limited knowledge is destroyed, the cycle of birth and death is also destroyed.",
+      "osho_hindi": "ओशो कहते हैं — तुम इसलिए नहीं जन्मते कि शरीर ने जन्म लिया। तुम इसलिए जन्मते हो क्योंकि तुम्हारी विद्या सीमित है। जब विद्या असीम हो जाए — तब जन्म-मृत्यु का खेल समाप्त।",
+      "osho_english": "Osho says — You are not born because a body was born. You are born because your knowledge is limited. When knowledge becomes unlimited — the game of birth and death ends."
+    },
+    {
+      "id": 51,
+      "chapter": 3,
+      "sanskrit": "कवर्गादिषु माहेश्वर्याद्याः पशुमातरः",
+      "hindi": "कवर्ग आदि वर्णों में माहेश्वरी आदि शक्तियाँ पशु (जीव) की माताएँ हैं।",
+      "english": "In the consonants beginning with Ka, the goddesses Maheshvari and others are the mothers who bind the individual soul.",
+      "osho_hindi": "ओशो कहते हैं — भाषा के अक्षरों में ही बंधन की शक्ति छिपी है। जो शब्द तुम बोलते हो, वे तुम्हें बनाते हैं। इसीलिए मंत्र — शब्द की शक्ति को मुक्ति की ओर मोड़ना है।",
+      "osho_english": "Osho says — The binding power is hidden within the very letters of language. The words you speak shape you. That is why mantra exists — to turn the power of words toward liberation."
+    },
+    {
+      "id": 52,
+      "chapter": 3,
+      "sanskrit": "त्रिषु चतुर्थं तैलवदासेच्यम्",
+      "hindi": "तीनों अवस्थाओं में चौथी अवस्था (तुरीय) को तेल की तरह सिंचित करना चाहिए।",
+      "english": "The fourth state — turiya — should be poured like oil into the other three states.",
+      "osho_hindi": "ओशो कहते हैं — तुरीय को केवल समाधि में मत रखो। उसे जाग्रत में, स्वप्न में, सुषुप्ति में — हर जगह फैलाओ। जैसे तेल कपड़े में रच जाता है — ऐसे चेतना जीवन में रच जाए।",
+      "osho_english": "Osho says — Do not keep turiya only in samadhi. Spread it in waking, in dreaming, in deep sleep — everywhere. As oil permeates cloth — let consciousness permeate all of life."
+    },
+    {
+      "id": 53,
+      "chapter": 3,
+      "sanskrit": "मग्नः स्वचित्तेन प्रविशेत्",
+      "hindi": "अपने चित्त में मग्न होकर (साधक) उसमें प्रवेश करे।",
+      "english": "Immersed in one's own mind, one should enter and penetrate it completely.",
+      "osho_hindi": "ओशो कहते हैं — चित्त से भागो नहीं। उसमें डूबो। जब पूरी तरह डूब जाओगे, तो पाओगे कि चित्त के भीतर एक और विस्तार है जो चित्त से पार है।",
+      "osho_english": "Osho says — Do not flee from the mind. Dive into it. When you dive completely, you will discover that within the mind there is another expanse that goes beyond the mind."
+    },
+    {
+      "id": 54,
+      "chapter": 3,
+      "sanskrit": "प्राणसमाचारे समदर्शनम्",
+      "hindi": "प्राण के संचार में समदर्शन (सब में एकता) होता है।",
+      "english": "In the natural movement of prana, the vision of equality — seeing the One in all — arises.",
+      "osho_hindi": "ओशो कहते हैं — जब श्वास पर ध्यान जाए — जब प्राण की गति महसूस हो — तब अचानक सब एक दिखने लगता है। फूल में और पत्थर में, मित्र में और शत्रु में — एक ही प्राण।",
+      "osho_english": "Osho says — When attention goes to the breath — when the movement of prana is felt — then suddenly everything looks like One. In a flower and in a stone, in a friend and in an enemy — the same prana."
+    },
+    {
+      "id": 55,
+      "chapter": 3,
+      "sanskrit": "मध्येऽवरप्रसवः",
+      "hindi": "मध्य (केंद्र) में अवर (निम्न) की उत्पत्ति होती है।",
+      "english": "In the central channel, the inferior (limited creation) is born.",
+      "osho_hindi": "ओशो कहते हैं — जब ऊर्जा मध्य से भटकती है — जब सुषुम्ना से हट जाती है — तभी सीमित सृष्टि होती है। मध्य में रहो — केंद्र में रहो। वही शिव का मार्ग है।",
+      "osho_english": "Osho says — When energy strays from the center — when it departs from the sushumna — then limited creation is born. Stay in the center. That is the path of Shiva."
+    },
+    {
+      "id": 56,
+      "chapter": 3,
+      "sanskrit": "मात्रास्वप्रत्ययसन्धाने नष्टस्य पुनरुत्थानम्",
+      "hindi": "प्रत्ययों के साथ मात्राओं के संधान से नष्ट हुई चेतना का पुनरुत्थान होता है।",
+      "english": "By uniting perceptions with the objects of experience, what was lost rises again.",
+      "osho_hindi": "ओशो कहते हैं — जो खो गया था, वह कहीं गया नहीं। जब ठीक से जोड़ होता है — प्रत्यय और मात्रा का — तो सोई हुई चेतना जाग उठती है। कुछ नया नहीं पाना है, जो है उसे जगाना है।",
+      "osho_english": "Osho says — What was lost has not gone anywhere. When the right union occurs — of perception and object — then dormant consciousness awakens again. Nothing new is to be gained, only what is already there must be awakened."
+    },
+    {
+      "id": 57,
+      "chapter": 3,
+      "sanskrit": "शिवतुल्यो जायते",
+      "hindi": "वह शिव के समान हो जाता है।",
+      "english": "He becomes equal to Shiva.",
+      "osho_hindi": "ओशो कहते हैं — यह सूत्र सबसे बड़ी घोषणा है। तुम शिव बन सकते हो — शिव के समान हो सकते हो। यह अहंकार नहीं, यह परम विनम्रता है — अपनी पूर्ण संभावना को स्वीकार करना।",
+      "osho_english": "Osho says — This sutra is the greatest proclamation. You can become Shiva — you can become equal to Shiva. This is not arrogance, this is the ultimate humility — accepting your full potential."
+    },
+    {
+      "id": 58,
+      "chapter": 3,
+      "sanskrit": "शरीरवृत्तिर्व्रतम्",
+      "hindi": "शरीर की समस्त गतिविधि ही व्रत (साधना) है।",
+      "english": "The activity of the body itself is the vow — every action becomes sadhana.",
+      "osho_hindi": "ओशो कहते हैं — व्रत का अर्थ केवल उपवास नहीं है। जब हर काम श्रद्धा से हो — जब उठना, बैठना, चलना — सब परमात्मा की याद में हो — तब पूरा जीवन व्रत है।",
+      "osho_english": "Osho says — Vow does not only mean fasting. When every action is done with reverence — when rising, sitting, walking — all happen in remembrance of the Divine — then all of life is a vow."
+    },
+    {
+      "id": 59,
+      "chapter": 3,
+      "sanskrit": "कथा जपः",
+      "hindi": "कथा (सत्संग, वार्तालाप) ही जप है।",
+      "english": "Sacred conversation and discourse is itself the repetition of mantra — japa.",
+      "osho_hindi": "ओशो कहते हैं — जब शब्द श्रद्धा से निकलें, जब वार्तालाप परमात्मा की ओर मुड़े — तब हर बात जप बन जाती है। मौन भी जप है और बोलना भी — जब दोनों होश से हों।",
+      "osho_english": "Osho says — When words emerge from reverence, when conversation turns toward the Divine — then every word becomes japa. Silence is japa and speaking is japa — when both arise from awareness."
+    },
+    {
+      "id": 60,
+      "chapter": 3,
+      "sanskrit": "दानमात्मज्ञानम्",
+      "hindi": "आत्मज्ञान ही सच्चा दान है।",
+      "english": "Self-knowledge is the highest gift — the truest act of giving.",
+      "osho_hindi": "ओशो कहते हैं — धन का दान अच्छा है, लेकिन आत्मज्ञान का दान श्रेष्ठ है। जब एक जागा हुआ व्यक्ति दूसरों को जगाता है — यही सबसे बड़ा दान है।",
+      "osho_english": "Osho says — Giving wealth is good, but giving Self-knowledge is supreme. When an awakened one awakens others — that is the greatest gift."
+    },
+    {
+      "id": 61,
+      "chapter": 3,
+      "sanskrit": "योऽविपस्थो ज्ञाहेतुश्च",
+      "hindi": "जो (सिद्ध) ज्ञान में स्थित है वही ज्ञान का हेतु (कारण) भी है।",
+      "english": "He who is established in knowledge is himself the cause and means of knowledge.",
+      "osho_hindi": "ओशो कहते हैं — जो जान लेता है, वह स्वयं ज्ञान का स्रोत बन जाता है। वह दीया जो जल गया, दूसरे दीये जलाता है। ज्ञान की परंपरा ऐसे ही चलती है।",
+      "osho_english": "Osho says — One who has truly known becomes himself a source of knowledge. A lamp that is lit, lights other lamps. The tradition of knowledge flows this way."
+    },
+    {
+      "id": 62,
+      "chapter": 3,
+      "sanskrit": "स्वशक्तिप्रचयोऽस्य विश्वम्",
+      "hindi": "यह विश्व उसकी अपनी शक्तियों का समूह है।",
+      "english": "This universe is the aggregate of the powers of the Self.",
+      "osho_hindi": "ओशो कहते हैं — जगत् बाहर नहीं है — यह तुम्हारी शक्तियों का विस्तार है। जब तुम सिकुड़ते हो, जगत् सिकुड़ता है। जब तुम फैलते हो, जगत् फैलता है।",
+      "osho_english": "Osho says — The world is not out there — it is the expansion of your own powers. When you contract, the world contracts. When you expand, the world expands."
+    },
+    {
+      "id": 63,
+      "chapter": 3,
+      "sanskrit": "स्थितिलयौ",
+      "hindi": "स्थिति (सृष्टि का पालन) और लय (विलय) — दोनों उसी की लीला हैं।",
+      "english": "Maintenance and dissolution — both are the play of the Self.",
+      "osho_hindi": "ओशो कहते हैं — जन्म और मृत्यु दोनों शिव के नृत्य के चरण हैं। जो यह जान लेता है, वह मृत्यु से नहीं डरता। जो मृत्यु से नहीं डरता, वह जीवन को पूरा जीता है।",
+      "osho_english": "Osho says — Birth and death are both steps in Shiva's dance. One who knows this is not afraid of death. One who is not afraid of death lives life fully."
+    },
+    {
+      "id": 64,
+      "chapter": 3,
+      "sanskrit": "तत्प्रवृत्तावप्यनिरासः संवेत्तृभावात्",
+      "hindi": "उस (सृष्टि-स्थिति-संहार) में प्रवृत्त होने पर भी संवेत्ता भाव से निरास नहीं होता।",
+      "english": "Even while engaged in the activity of creation and dissolution, the subjective awareness is never lost.",
+      "osho_hindi": "ओशो कहते हैं — योगी कर्म करता है पर कर्ता नहीं होता। वह लहरों में तैरता है पर डूबता नहीं। यही कर्मयोग है — शिव का तरीका।",
+      "osho_english": "Osho says — The yogi acts but is not the doer. He swims in the waves but does not drown. This is karma yoga — the way of Shiva."
+    },
+    {
+      "id": 65,
+      "chapter": 3,
+      "sanskrit": "सुखदुःखयोर्बहिर्मननम्",
+      "hindi": "सुख और दुःख को बाहरी मानकर उनका मनन करना।",
+      "english": "Contemplate pleasure and pain as external — as objects of awareness, not as your essence.",
+      "osho_hindi": "ओशो कहते हैं — सुख और दुःख दोनों अतिथि हैं। न सुख में उत्सव करो, न दुःख में विलाप। दोनों से थोड़ा दूर रहो — साक्षी रहो। वही तुम्हारी स्वतंत्रता है।",
+      "osho_english": "Osho says — Pleasure and pain are both guests. Neither celebrate in pleasure nor lament in pain. Stay a little apart from both — remain the witness. That is your freedom."
+    },
+    {
+      "id": 66,
+      "chapter": 3,
+      "sanskrit": "तद्विमुक्तस्तु केवली",
+      "hindi": "उससे (सुख-दुःख की आसक्ति से) मुक्त होने वाला केवली है।",
+      "english": "One who is freed from both is the kevalin — the one who stands alone in pure consciousness.",
+      "osho_hindi": "ओशो कहते हैं — केवली माने अकेला — पूर्ण अकेलापन। यह अकेलापन अकेलेपन का दुःख नहीं है — यह पूर्णता का आनंद है। जब तुम किसी पर निर्भर नहीं — तब तुम केवली हो।",
+      "osho_english": "Osho says — Kevalin means alone — utterly alone. This aloneness is not the pain of loneliness — it is the joy of wholeness. When you depend on nothing and no one — then you are the kevalin."
+    },
+    {
+      "id": 67,
+      "chapter": 3,
+      "sanskrit": "मोहप्रतिसंहतस्तु कर्मात्मा",
+      "hindi": "मोह से प्रतिसंहत (ग्रस्त) जीव कर्मात्मा (कर्म के अधीन) है।",
+      "english": "But the one overwhelmed by delusion is bound — a slave to karma.",
+      "osho_hindi": "ओशो कहते हैं — मोह में फँसा व्यक्ति कर्म करता नहीं — कर्म उससे होता है। वह चालक नहीं — मशीन है। जागो — और फिर कर्म तुम्हारा दास बनेगा।",
+      "osho_english": "Osho says — The person caught in delusion does not do karma — karma is done through him. He is not the driver — he is the machine. Awaken — and then karma will become your servant."
+    },
+    {
+      "id": 68,
+      "chapter": 3,
+      "sanskrit": "भेदतिरस्कारे सर्गान्तरकर्मत्वम्",
+      "hindi": "भेद के तिरोहित होने पर अन्य सृष्टि में कर्मत्व संभव होता है।",
+      "english": "When separateness is transcended, action can lead to a new creation — a new world.",
+      "osho_hindi": "ओशो कहते हैं — जब 'मैं' और 'तू' का भेद मिटता है, तब जो कर्म होता है वह सृजन बन जाता है। तब हर कदम एक नई दुनिया रचता है। यही बुद्ध का कर्म है, यही शिव का नृत्य।",
+      "osho_english": "Osho says — When the separation of 'I' and 'you' dissolves, the action that follows becomes pure creation. Then every step creates a new world. This is the action of the Buddha, this is the dance of Shiva."
+    },
+    {
+      "id": 69,
+      "chapter": 3,
+      "sanskrit": "करणशक्तिः स्वतोऽनुभवात्",
+      "hindi": "करण-शक्ति (सृजन-शक्ति) अपने अनुभव से ही उत्पन्न होती है।",
+      "english": "The power to create arises from one's own direct experience — not from external teaching.",
+      "osho_hindi": "ओशो कहते हैं — शक्ति किताबों से नहीं मिलती। शक्ति अनुभव से मिलती है। जितना तुम जीते हो, जितना तुम भोगते हो, जितना तुम जानते हो — उतनी ही शक्ति तुम्हारी है।",
+      "osho_english": "Osho says — Power does not come from books. Power comes from experience. The more you live, the more you experience, the more you know — the more power is yours."
+    },
+    {
+      "id": 70,
+      "chapter": 3,
+      "sanskrit": "त्रिपदाद्यनुप्राणनम्",
+      "hindi": "तुरीय (चतुर्थ पद) तीनों अवस्थाओं को अनुप्राणित करता है।",
+      "english": "The fourth state — turiya — vivifies and breathes life into the other three states.",
+      "osho_hindi": "ओशो कहते हैं — जब तुरीय को तीनों अवस्थाओं में उतारते हो — जब समाधि की ऊर्जा जाग्रत में भी बहती है — तब जीवन ध्यानपूर्ण हो जाता है।",
+      "osho_english": "Osho says — When you bring turiya into the three states — when the energy of samadhi flows even in waking — then life becomes meditative."
+    },
+    {
+      "id": 71,
+      "chapter": 3,
+      "sanskrit": "चित्तस्थितिवच्छरीरकरणबाह्येषु",
+      "hindi": "जैसे चित्त में स्थिरता हो, वैसे ही शरीर, करण और बाह्य जगत् में भी।",
+      "english": "The same stability of mind should permeate the body, the senses, and the outer world.",
+      "osho_hindi": "ओशो कहते हैं — ध्यान केवल बैठे-बैठे नहीं होता। जो शांति ध्यान में आती है, वह चलने में, बोलने में, काम करने में — सब जगह होनी चाहिए।",
+      "osho_english": "Osho says — Meditation is not only something you do sitting down. The peace that comes in meditation must permeate walking, speaking, working — everywhere."
+    },
+    {
+      "id": 72,
+      "chapter": 3,
+      "sanskrit": "अभिलाषाद्बहिर्गतिः संवाह्यस्य",
+      "hindi": "कामना से संवाह्य (संसारी) जीव की गति बाहर की ओर होती है।",
+      "english": "Craving leads the worldly one outward — away from the Self.",
+      "osho_hindi": "ओशो कहते हैं — कामना हमें बाहर खींचती है। हर इच्छा एक कदम बाहर की ओर है। इसीलिए साधना में इच्छाओं को देखना है — उनके साथ लड़ना नहीं, बस देखना है।",
+      "osho_english": "Osho says — Craving pulls us outward. Every desire is a step away from the Self. That is why in sadhana one observes desires — not fights them, just watches them."
+    },
+    {
+      "id": 73,
+      "chapter": 3,
+      "sanskrit": "तदारूढप्रमितेस्तत्क्षयाज्जीवसंक्षयः",
+      "hindi": "शुद्ध चेतना में आरूढ़ होने पर कामना का नाश होने से जीव-भाव का नाश होता है।",
+      "english": "When established in pure awareness, craving is destroyed — and with it, the sense of being a limited individual.",
+      "osho_hindi": "ओशो कहते हैं — जैसे ही शुद्ध चेतना में टिकते हो — कामना अपने आप गिर जाती है। तब 'मैं' भी नहीं रहता। जो बचता है, वह अनाम है — वही परम है।",
+      "osho_english": "Osho says — As soon as you rest in pure consciousness — craving falls away on its own. Then even the 'I' does not remain. What remains is nameless — that is the Supreme."
+    },
+    {
+      "id": 74,
+      "chapter": 3,
+      "sanskrit": "भूतकञ्चुकी तदा विमुक्तो भूयः पतिसमः परः",
+      "hindi": "भूत-तत्त्वों के कवच से मुक्त होने पर वह पुनः पति (शिव) के समान परम हो जाता है।",
+      "english": "Freed from the armor of the elements, one becomes once again supreme — equal to the Lord.",
+      "osho_hindi": "ओशो कहते हैं — तुम शिव के समान हो सकते हो — यह शिव सूत्र की घोषणा है। यह महत्त्वाकांक्षा नहीं है, यह सत्य है। तुम पहले से ही वह हो — बस याद नहीं।",
+      "osho_english": "Osho says — You can become equal to Shiva — this is the declaration of the Shiva Sutras. This is not ambition, this is truth. You already are that — you have simply forgotten."
+    },
+    {
+      "id": 75,
+      "chapter": 3,
+      "sanskrit": "नैसर्गिकः प्राणसम्बन्धः",
+      "hindi": "प्राण के साथ संबंध स्वाभाविक (नैसर्गिक) है।",
+      "english": "The link with the vital breath is natural — prana is the natural bridge between Self and world.",
+      "osho_hindi": "ओशो कहते हैं — श्वास तुम्हारा सबसे करीबी मित्र है। वह हमेशा साथ है। श्वास पर ध्यान देना सबसे सरल साधना है — और सबसे गहरी भी।",
+      "osho_english": "Osho says — The breath is your closest friend. It is always with you. Attending to the breath is the simplest sadhana — and the deepest."
+    },
+    {
+      "id": 76,
+      "chapter": 3,
+      "sanskrit": "नासिकान्तर्मध्यसंयमात्किमत्र सव्यापसव्यसौषुम्नेषु",
+      "hindi": "नासिका के अंतर्मध्य में संयम करने पर इड़ा, पिंगला और सुषुम्ना का क्या काम?",
+      "english": "By perfect concentration on the center within the nostrils, what further need is there for the left, right, or central channel?",
+      "osho_hindi": "ओशो कहते हैं — जब केंद्र में टिको — जब न बाएँ जाओ, न दाएँ — तो सुषुम्ना अपने आप खुल जाती है। सभी मार्ग एक ही केंद्र में मिलते हैं।",
+      "osho_english": "Osho says — When you rest in the center — when you go neither left nor right — then the sushumna opens by itself. All paths converge in the one center."
+    },
+    {
+      "id": 77,
+      "chapter": 3,
+      "sanskrit": "भूयः स्यात्प्रतिमीलनम्",
+      "hindi": "पुनः (बार-बार) प्रतिमीलन (परम चेतना में वापस विलय) हो।",
+      "english": "May there be again and again a merging back — a return of the individual into the Divine.",
+      "osho_hindi": "ओशो कहते हैं — यह अंतिम सूत्र एक प्रार्थना है। बार-बार लौटो। एक बार जागे और फिर सो गए — कोई बात नहीं। फिर जागो। जब तक पूर्ण जागृति न हो — तब तक बार-बार प्रतिमीलन।",
+      "osho_english": "Osho says — This final sutra is a prayer. Return again and again. If you woke once and fell asleep again — no matter. Awaken again. Until complete awakening occurs — keep returning, again and again."
+    }
+  ]
+}
