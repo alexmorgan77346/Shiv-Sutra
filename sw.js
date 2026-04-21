@@ -4,7 +4,7 @@
    Cache-first strategy. Posts progress to app.
    ══════════════════════════════════════════ */
 
-const CACHE = 'shiv-sutra-v4';
+const CACHE = 'shiv-sutra-v5';
 
 const PRECACHE = [
   './',
